@@ -1,0 +1,32 @@
+.aside{
+    width: 23rem;
+    height: 100vh;
+    background-color: #13293d;
+
+    .photo__box{
+        width: 100%;
+        height: 20rem;
+        background-color: red;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .name{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+    }
+    .addres{
+        color: white;
+        font-size: .9rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+}
