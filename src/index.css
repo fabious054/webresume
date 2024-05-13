@@ -10,3 +10,17 @@ body{
     display: flex;
     height: 100vh;
   }
+
+  @media (max-width: 800px){
+    #root > main.container {
+        flex-direction: column;
+        height: 100vh;
+      }
+ }
+
+ @media (max-width: 500px){
+    #root > main.container {
+        flex-direction: column;
+        height: 100vh;
+      }
+ }
