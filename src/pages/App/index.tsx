@@ -1,6 +1,7 @@
 import Router  from '../../routes';
 import {LanguageProvider} from '../../contexts';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
     return (
@@ -8,6 +9,7 @@ export default function App() {
         <main className='container'>
             <Router />
             <SpeedInsights />
+            <Analytics />
         </main>
     </LanguageProvider>
     );
