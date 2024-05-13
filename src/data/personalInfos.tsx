@@ -12,7 +12,7 @@ export default function PersonalInfos(langague: string) {
         },
         'en': {
             name: 'Fabio Abreu',
-            age: '24 years old',
+            age: '24 Years Old',
             city: 'Caxias do Sul',
             state: 'Rio Grande do Sul - Brazil',
             country: 'Brazil'
