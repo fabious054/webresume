@@ -1,0 +1,63 @@
+@import '../../styles/variables.scss';
+
+.skills{
+    width: 70%;
+    padding-inline: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin: auto;
+    background-color: #1a4872;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 5%;
+
+    h2{
+        color: $principalTitlesColor;
+        margin: 0px;
+        font-size: 1.2rem;
+    }
+
+    ul{
+        list-style: none;
+        padding-inline: 0px;
+
+        li{
+            margin-bottom: .5rem;
+            border-bottom: 1px solid $principalTitlesColor;
+            &:hover{
+                background-color: #0f2c4b;
+                transform: matrix(1.06, 0, 0, 1.06, 0, 0);
+
+            }
+            
+            .skill__box{
+                display: flex;
+                justify-content: space-between;
+
+                .skill__title{
+                    margin: 0px;
+                    color:$principalTitlesColor;
+                    font-style: italic;
+                    font-size: .8rem;
+                }
+                .skill__stars_box{
+                    display: flex;
+
+                    img{
+                        width: 1rem;
+                        height: 1rem;
+                        filter: grayscale(100%);
+                    }
+                    img.color{
+                        filter: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//tela de 1350px para baixo
+
+@media (max-width: 1366px){
+
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/webresume/static/css/main.a6d837c0.css",
+    "main.js": "/webresume/static/js/main.70062126.js",
+    "static/media/eua-flag.png": "/webresume/static/media/eua-flag.817d3af53c4517ee0d33.png",
+    "static/media/my-photo.png": "/webresume/static/media/my-photo.5f900c807100f7c5d09f.png",
+    "static/media/brazil-flag.png": "/webresume/static/media/brazil-flag.14240b4ab4fd03e1fda7.png",
+    "static/media/star.png": "/webresume/static/media/star.5c5c84ddfff3dbb81a25.png",
+    "static/media/instagram.png": "/webresume/static/media/instagram.d79066da966b0c9b837c.png",
+    "index.html": "/webresume/index.html",
+    "main.a6d837c0.css.map": "/webresume/static/css/main.a6d837c0.css.map",
+    "main.70062126.js.map": "/webresume/static/js/main.70062126.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6d837c0.css",
+    "static/js/main.70062126.js"
+  ]
+}

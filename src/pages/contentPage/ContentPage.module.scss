@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.content{
+    width: calc(100% - $sideBarWidthSmaller);
+    height: 100%;
+    display: grid;
+    grid-template-rows: 12fr 1fr;
+}
+
+@media (max-width: 800px){
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
