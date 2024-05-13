@@ -19,7 +19,7 @@
     .name{
         color: $principalTitlesColor;
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 400;
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 0px;
@@ -30,6 +30,22 @@
         font-weight: 400;
         text-align: center;
         margin-top: 0.5rem;
+    }
+}
+
+@media (min-width: 2500px){
+    .aside{
+        width:$sideBarWidthTaller;
+        .photo__box{
+            height: 25rem;
+        }
+        .name{
+            font-size: 1.7rem;
+        }
+        .addres{
+            font-size: 1rem;
+            text-align: center;
+        }
     }
 }
 

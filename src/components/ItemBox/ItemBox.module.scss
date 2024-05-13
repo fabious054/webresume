@@ -54,13 +54,22 @@
 }
 
 @media (max-width: 800px){
-
+    .box{
+        .box__content{
+            gap: 1rem;
+        }
+    }
 }
 
 @media (max-width: 500px){
     .box{
+        .box__title{
+            text-align: center;
+            margin: 1px ;
+        }
         .box__content{
             grid-template-columns: repeat(1, 2fr);
+            gap: 1rem;
         }
     }
 }

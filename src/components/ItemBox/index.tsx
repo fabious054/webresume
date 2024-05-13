@@ -12,9 +12,6 @@ export const ItemBox = () => {
     const certificates = Certificates(language);
     
     const arrayCertificates = certificates.certificates;
-    console.log(arrayCertificates);
-    
-    
 
     return (
         <div className={styles.box}>
