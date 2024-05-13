@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6d837c0.css",
-    "main.js": "/static/js/main.d876c44e.js",
-    "static/media/eua-flag.png": "/static/media/eua-flag.817d3af53c4517ee0d33.png",
-    "static/media/my-photo.png": "/static/media/my-photo.5f900c807100f7c5d09f.png",
-    "static/media/brazil-flag.png": "/static/media/brazil-flag.14240b4ab4fd03e1fda7.png",
-    "static/media/star.png": "/static/media/star.5c5c84ddfff3dbb81a25.png",
-    "static/media/instagram.png": "/static/media/instagram.d79066da966b0c9b837c.png",
-    "index.html": "/index.html",
-    "main.a6d837c0.css.map": "/static/css/main.a6d837c0.css.map",
-    "main.d876c44e.js.map": "/static/js/main.d876c44e.js.map"
+    "main.css": "/testando/static/css/main.a6d837c0.css",
+    "main.js": "/testando/static/js/main.519d1159.js",
+    "static/media/eua-flag.png": "/testando/static/media/eua-flag.817d3af53c4517ee0d33.png",
+    "static/media/my-photo.png": "/testando/static/media/my-photo.5f900c807100f7c5d09f.png",
+    "static/media/brazil-flag.png": "/testando/static/media/brazil-flag.14240b4ab4fd03e1fda7.png",
+    "static/media/star.png": "/testando/static/media/star.5c5c84ddfff3dbb81a25.png",
+    "static/media/instagram.png": "/testando/static/media/instagram.d79066da966b0c9b837c.png",
+    "index.html": "/testando/index.html",
+    "main.a6d837c0.css.map": "/testando/static/css/main.a6d837c0.css.map",
+    "main.519d1159.js.map": "/testando/static/js/main.519d1159.js.map"
   },
   "entrypoints": [
     "static/css/main.a6d837c0.css",
-    "static/js/main.d876c44e.js"
+    "static/js/main.519d1159.js"
   ]
 }
