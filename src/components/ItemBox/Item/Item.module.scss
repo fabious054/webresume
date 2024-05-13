@@ -1,0 +1,15 @@
+@import '../../../styles/variables.scss';
+
+.item{
+    border-radius: 10px;
+    transition: 0.1s;
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}

@@ -1,5 +1,22 @@
 .container {
-  display: flex;
-  height: 100vh;
-  background-color: red;
+  padding-top: 3rem;
+  padding-inline: 2.5rem;
+}
+
+@media (max-width: 1100px){
+ 
+}
+
+@media (max-width: 800px){
+  .container {
+    padding-top: 0rem;
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (max-width: 500px){
+  .container {
+    padding-top: 0rem;
+    padding-inline: 0rem;
+  }
 }

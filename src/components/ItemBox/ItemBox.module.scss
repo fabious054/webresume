@@ -1,0 +1,66 @@
+@import '../../styles/variables.scss';
+
+.box{
+    padding: 0.6rem;
+    
+    .box__title{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: $principalBgColor;
+    }
+    .box__content{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 2rem;
+
+        //scroll
+        overflow: auto;
+        max-height: 60vh;
+
+        &::-webkit-scrollbar {
+            width: 8px; /* largura da barra de rolagem */
+          }
+        &::-webkit-scrollbar-track {
+        background: #f1f1f1; /* cor do fundo da barra de rolagem */
+        }
+
+        &::-webkit-scrollbar-thumb {
+        background: $principalBgColor; /* cor do indicador de rolagem */
+        border-radius: 6px; /* borda arredondada do indicador */
+        }
+
+    }
+}
+
+@media (min-width: 2500px){
+    .box{
+        .box__title{
+            font-size: 1.8rem;
+        }
+        .box__content{
+            grid-template-columns: repeat(4, 2fr);
+            max-height: 80vh;
+        }
+    }
+}
+
+@media (max-width: 1100px){
+    .box{
+        .box__content{
+            grid-template-columns: repeat(2, 2fr);
+            max-height: 80vh;
+        }
+    }
+}
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 500px){
+    .box{
+        .box__content{
+            grid-template-columns: repeat(1, 2fr);
+        }
+    }
+}

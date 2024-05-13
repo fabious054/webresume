@@ -58,6 +58,25 @@
 
 //tela de 1350px para baixo
 
-@media (max-width: 1366px){
+@media (min-width: 2500px){
+    .skills{
+        h2{
+            color: $principalTitlesColor;
+            margin: 0px;
+            font-size: 1.8rem;
+        }
 
+        ul{
+            li{
+                margin-bottom: .9rem;
+
+                .skill__box{
+                    .skill__title{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+        
+    }
 }
