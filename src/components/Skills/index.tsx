@@ -10,7 +10,6 @@ interface jsonProps {
 }
 
 export default function Skills(skills: jsonProps) {
-    console.log(skills);
     const skillsList = skills.skills;
 
     function renderStars(stars: number, skillStars: number) {

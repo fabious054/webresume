@@ -1,15 +1,33 @@
 @import '../../../styles/variables.scss';
 
 .item{
-    border-radius: 10px;
     transition: 0.1s;
+    cursor: pointer;
 
     &:hover{
-        opacity: 0.8;
+        button{
+            background-color: $principalTitlesColor;
+            color: $principalBgColor;
+        }
     }
 
     img{
         width: 100%;
-        border-radius: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    button{
+        background-color: $principalBgColor;
+        border-color: $principalBgColor ;
+        color: $principalTitlesColor;
+        width: 100%;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+        border: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: .7rem;
+        transition: all .2s;
     }
 }

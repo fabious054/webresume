@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.select{
+    width: 15rem;
+    height: fit-content;
+    padding: .2rem;
+    border: none;
+    border-radius: 10px;
+
+    color: $principalBgColor;
+    font-size: .9rem;
+    
+
+    &:focus{
+        outline: none;
+    }
+}
+
+@media (min-width: 2500px){
+    .select{
+        width: 23rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .select{
+        width: 9rem;
+    }
+}

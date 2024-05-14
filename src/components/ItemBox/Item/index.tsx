@@ -1,8 +1,10 @@
 import styles from './Item.module.scss';
-import img from '../../../assets/img/certificatesImg/teste.png';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../../../contexts';
+import { useNavigate } from 'react-router-dom';
 
-//interface de um array de obn
 interface Certificate {
+    id: number;
     title: string;
     description: string;
     image: string;
@@ -15,11 +17,23 @@ certificates: Certificate[];
 }
 
 export const Item = (certificates:Props) => {
+    const navigate = useNavigate();
+    const contextLangague = useContext(LanguageContext);
+    const language = contextLangague?.language || 'pt-br';
+    const btnTxt = language === 'pt-br' ? 'DETALHES' : 'DETAILS';
+
+    const btnTtle = language === 'pt-br' ? 'EM BREVE' : 'SOON';
+
+    function goToCertificate(id:number) {
+        
+    };
+
     return (
         <>
             {certificates.certificates.map((certificate: Certificate) => (
-                <div className={styles.item}>
+                <div onClick={() => goToCertificate(certificate.id)}  key={certificate.id} className={styles.item}>
                     <img src={certificate.image} alt="" />
+                    <button title={btnTtle} disabled onClick={() => navigate(`certificate/${certificate.id}`)}>{btnTxt}</button>
                 </div>
             ))}
         </>
