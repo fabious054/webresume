@@ -6,6 +6,7 @@ import Aside from './components/Aside';
 import Footer from './components/Footer';
 import ButtonSetLanguage from './components/ButtonSetLanguage';
 import ContentPage from './pages/contentPage';
+import NotFound from './pages/NotFound';
 
 export default function AppRoutes() {
     return (
@@ -16,6 +17,7 @@ export default function AppRoutes() {
                 <Route path="/" element={<ContentPage />}>
                     <Route index element={<Home />} />
                 </Route>
+            <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>
     );
