@@ -25,7 +25,7 @@ export const Item = (certificates:Props) => {
     const btnTtle = language === 'pt-br' ? 'EM BREVE' : 'SOON';
 
     function goToCertificate(id:number) {
-        
+        navigate(`certificate/${id}`)
     };
 
     return (
@@ -33,7 +33,7 @@ export const Item = (certificates:Props) => {
             {certificates.certificates.map((certificate: Certificate) => (
                 <div onClick={() => goToCertificate(certificate.id)}  key={certificate.id} className={styles.item}>
                     <img src={certificate.image} alt="" />
-                    <button title={btnTtle} disabled onClick={() => navigate(`certificate/${certificate.id}`)}>{btnTxt}</button>
+                    <button title={btnTtle}>{btnTxt}</button>
                 </div>
             ))}
         </>
