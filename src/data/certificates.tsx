@@ -8,52 +8,52 @@ export default function Certificates(langague: string) {
                 {
                     id: 1,
                     title: 'C: Avançando na linguagem',
-                    description: '',
+                    description: 'Desenvolva suas habilidades de programação em C++ enquanto cria um jogo de forca completo! Neste desafio, você explorará conceitos essenciais, desde funções e manipulação de arrays até ponteiros e endereços de memória. Aprenda a manipular entrada e saída de dados, além de escrever em arquivos para salvar o progresso do jogo. Ao longo do caminho, descubra boas práticas de programação que ajudarão a tornar seu código mais legível, eficiente e fácil de manter. Prepare-se para mergulhar em uma experiência prática e divertida, onde você aplicará seus conhecimentos para construir um jogo clássico e desafiador.',
                     image: 'https://i.ibb.co/h8gdqcL/curso-c-avan-ando-na-linguagem-1.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['C']
+                    tags: ['C','C++']
                 },
                 {
                     id: 2,
                     title: 'C: Conhecendo a linguagem das linguagens',
-                    description: '',
+                    description: 'Inicie sua jornada na programação em C aprendendo a criar seu primeiro programa. Entenda o conceito de variáveis e como elas armazenam dados. Explore como seu programa pode variar seu comportamento com base em diferentes condições e entradas. Aprofunde-se em realizar operações matemáticas para manipular dados de forma eficaz. Aprenda a usar condicionais e laços para controlar o fluxo do seu programa. Adquira insights sobre como os compiladores funcionam para traduzir seu código em instruções legíveis pela máquina. Por fim, coloque suas novas habilidades à prova criando um jogo de adivinhação completo, onde os jogadores tentam adivinhar um número secreto.',
                     image: 'https://i.ibb.co/frGbNRj/curso-c-conhecendo-a-linguagem-das-linguagens-1.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['C']
+                    tags: ['C','C++']
                 },
                 {
                     id: 3,
                     title: 'C: Recursos avançados da linguagem',
-                    description: '',
+                    description: 'Aprimore suas habilidades em C++ escrevendo funções recursivas e manipulando matrizes para criar um jogo completo de Pac-Man. Explore a definição de tipos e estruturas para organizar seus dados de maneira eficiente. Entenda as diretivas de compilação para otimizar o processo de compilação e tornar seu código mais flexível. Aprenda a dividir seu código em múltiplos arquivos para facilitar a manutenção e organização do projeto. Prepare-se para uma jornada emocionante enquanto você constrói um clássico dos videogames, desafiando-se a implementar todos os aspectos do Pac-Man, desde a movimentação dos personagens até a lógica dos fantasmas e a coleta de pontos.',
                     image: 'https://i.ibb.co/X5GszsW/curso-c-recursos-avan-ados-da-linguagem.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['C']
+                    tags: ['C','C++']
                 },
                 {
                     id: 4,
                     title: 'Flask: Avançando no desenvolvimento web com python',
-                    description: '',
+                    description: `Desenvolva um aplicativo completo de CRUD utilizando MySQL e SQLAlchemy para gerenciamento de banco de dados. Implemente a funcionalidade de upload de arquivos para enriquecer as interações do usuário. Garanta a validação de formulários utilizando Flask WTF para manter a integridade dos dados. Aprimore a segurança do projeto integrando o Flask Bcrypt para criptografia e proteção contra acessos não autorizados. Essa combinação de tecnologias permite a criação de um aplicativo web robusto, com gerenciamento de dados eficiente, melhor experiência do usuário e medidas de segurança reforçadas.`,
                     image: 'https://i.ibb.co/LZXgLs9/curso-flask-avan-ando-no-desenvolvimento-web-com-python.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['PYTHON', 'FLASK']
+                    tags: ['PYTHON', 'FLASK', 'MYSQL', 'SQLALCHEMY']
                 },
                 {
                     id: 5,
                     title: 'Flask: Crie uma webapp com python',
-                    description: '',
+                    description: 'Aprenda a criar uma aplicação web com Flask, um microframework em Python que oferece facilidade e flexibilidade no desenvolvimento. Combinando HTML e Bootstrap, você pode criar websites elegantes e responsivos. Além disso, é possível proteger sua aplicação implementando um sistema de login e autorização personalizado. Ao definir rotas, redirecionamentos e templates, você organiza o conteúdo de forma eficiente. Com URLs dinâmicas, é possível proporcionar uma experiência personalizada aos usuários.',
                     image: 'https://i.ibb.co/y0DHKp1/curso-flask-crie-uma-webapp-com-python.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['PYTHON', 'FLASK']
+                    tags: ['PYTHON', 'FLASK', 'HTML', 'BOOTSTRAP']
                 },
                 {
                     id: 6,
                     title: 'Git e Github: Compartilhando e colaborando em projetos',
-                    description: '',
+                    description: 'Crie seu portfólio de projetos no GitHub para compartilhar seu trabalho com o mundo. Aprenda a compartilhar o código dos seus projetos, entender como colaborar em equipes e fazer o versionamento usando o Git. Lidar com conflitos em códigos e analisar o histórico de commits são habilidades essenciais para qualquer desenvolvedor.',
                     image: 'https://i.ibb.co/SwJzkyD/curso-git-github.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -62,7 +62,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 7,
                     title: 'Linux onboarding: usando a CLI de uma forma rápida e prática',
-                    description: '',
+                    description: 'Comece a usar o Linux de forma rápida e prática, dominando habilidades essenciais. Manipule arquivos e diretórios através da linha de comando (CLI), gerencie serviços, e explore o sistema, acessando logs, processos e dispositivos. Aprenda também a administrar usuários e grupos do sistema.',
                     image: 'https://i.ibb.co/wKzDnTJ/curso-linux-onboarding-usando-a-cli.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -71,7 +71,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 8,
                     title: 'Lógica de programação: Explore funções e listas',
-                    description: '',
+                    description: 'Aprenda sobre funções e como usar JavaScript para manipular elementos na tela. Refine sua lógica de programação com projetos reais. Saiba como publicar seus projetos usando Github e Vercel. Descubra o uso de listas, uma estrutura de dados essencial na programação. Crie manipulações dinâmicas de palavras e números com JavaScript.',
                     image: 'https://i.ibb.co/Wnk1ft7/curso-logica-de-programacao.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
@@ -80,7 +80,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 9,
                     title: 'Lógica de programação: Mergulhe em programação com javaScript',
-                    description: '',
+                    description: 'Exiba mensagens de forma interativa na tela. Utilize variáveis no desenvolvimento de software e siga boas práticas de programação ao ingressar no mundo do desenvolvimento. Desenvolva uma aplicação completa, inspirada em situações reais, do início ao fim. Aprenda a adaptar soluções fornecidas pela linguagem em seus programas de software.',
                     image: 'https://i.ibb.co/DrzcQdD/curso-logica-de-programacao-mergulhe-Java-Script.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
@@ -89,7 +89,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 10,
                     title: 'Python: Aplicando a orientação a objetos',
-                    description: '',
+                    description: 'Entenda a importância da Orientação a Objetos com Python e descubra como classes e atributos são essenciais em projetos reais. Utilize métodos estáticos e encapsulamento para melhorar sua prática de programação. Compreenda como propriedades podem conter lógica adicional além de simples acesso e atribuição de valores. Aprenda como as classes em Python podem organizar e estruturar seu código de forma eficiente, utilizando o construtor para inicializar objetos e definir seus estados iniciais.',
                     image: 'https://i.ibb.co/zFPQzXx/curso-python-aplicando-a-orientacao-a-objetos.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
@@ -98,7 +98,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 11,
                     title: 'Python: Avançando na orientação a objetos',
-                    description: '',
+                    description: 'Entenda o conceito de Duck Typing e sua utilidade na flexibilidade de tipos em Python. Crie classes abstratas e explore herança múltipla para reutilização de código. Aprenda sobre o modelo de dados do Python e como ele influencia a manipulação de objetos. Conheça os Mixins e a extensão de classes para modularidade e reutilização de comportamentos. Saiba a diferença entre os métodos especiais __str__ e __repr__ na representação de objetos.',
                     image: 'https://i.ibb.co/GV6DfZx/curso-python-avancando-na-orientacao-a-objetos.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
@@ -107,7 +107,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 12,
                     title: 'Python: Avance na orientação a objetos e consuma API',
-                    description: '',
+                    description: 'Implemente herança e classes abstratas para promover a reutilização de código e a modularidade em seus projetos Python. Domine o conceito de polimorfismo para escrever código flexível e adaptável. Aprenda a integrar seus projetos com aplicações externas para expandir suas funcionalidades. Entenda como criar arquivos JSON de forma prática para armazenar e compartilhar dados estruturados. Crie e ative ambientes virtuais em Python para manter suas dependências de projeto isoladas e gerenciar versões de pacotes com facilidade.',
                     image: 'https://i.ibb.co/HG4r0ds/curso-python-avance-na-orientacao-a-objetos-e-consuma-API.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -116,16 +116,16 @@ export default function Certificates(langague: string) {
                 {
                     id: 13,
                     title: 'Python e TDD: Explorando testes unitários',
-                    description: '',
+                    description: 'Aprenda a criar seus primeiros testes unitários com Python e conheça o principal framework de testes, o Pytest. Entenda o conceito de Desenvolvimento Orientado a Testes (Test-Driven Development - TDD) e como aplicá-lo. Saiba criar testes que lidem com exceções e utilize marcadores para organizar e aprimorar a execução dos seus testes. Aprenda sobre cobertura de testes e como verificá-la.',
                     image: 'https://i.ibb.co/1Z71Jk2/curso-python-e-TDD.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['PYTHON', 'TDD']
+                    tags: ['PYTHON', 'TDD', 'PYTEST']
                 },
                 {
                     id: 14,
                     title: 'Python: Crie a sua primeira aplicação',
-                    description: '',
+                    description: 'Crie um projeto em Python utilizando o VSCode e explore o fluxo de uma aplicação com o uso de condicionais e laços de repetição. Aprenda a utilizar blocos de controle de execução try-except para lidar com exceções. Desenvolva funções para exibir o menu principal e registrar restaurantes em listas e dicionários.',
                     image: 'https://i.ibb.co/R9tVjC2/curso-python-primeira-aplicacao.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -134,65 +134,65 @@ export default function Certificates(langague: string) {
                 {
                     id: 15,
                     title: 'React: Conhecendo a biblioteca React-Router',
-                    description: '',
+                    description: 'Saiba como refatorar um projeto utilizando o ESLint e desenvolva um código escalável, priorizando a clareza e a facilidade de compreensão. Utilize o pacote react-router-dom de maneira simples e prática, aprendendo todos os principais conceitos da biblioteca. Descubra como a biblioteca se integra com o navegador e utiliza recursos nativos para manipular rotas e compartilhar estados. Crie telas navegando entre elas de várias formas diferentes e reutilize componentes entre elas. Entenda sobre rotas aninhadas (nested routes) e como criá-las para reutilizar código e resolver problemas.',
                     image: 'https://i.ibb.co/x8WJjXb/curso-React-conhecendo-a-biblioteca-React-Router.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT', 'REACT-ROUTER']
+                    tags: ['REACT', 'REACT-ROUTER', 'ESLINT']
                 },
                 {
                     id: 16,
                     title: 'React: Escrevendo com TypeScript',
-                    description: '',
+                    description: `Crie um projeto React com Typescript do zero usando o Create React App. Entenda conceitos fundamentais do React, como Componentização, Props e State. Evite sobreposições de CSS com CSS Modules. Aprenda sobre os hooks useState e useEffect e compreenda como eles eram utilizados em class components. Mantenha seu código limpo e documentado seguindo as práticas mais atuais de escrita em React. Desenvolva seu código com conceitos de boas práticas, como DRY (Don't repeat yourself) e SRP (Single Responsibility Principle).`,
                     image: 'https://i.ibb.co/qDP0Hjc/curso-React-escrevendo-com-Typescript.png',
                     hours: 12,
                     hoursTxt: '12 Horas',
-                    tags: ['REACT', 'TYPESCRIPT']
+                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS']
                 },
                 {
                     id: 17,
                     title: 'React-Native: criando menu e navegando entre telas',
-                    description: '',
+                    description: 'Instale a biblioteca React Navigation para gerenciar a navegação em seu aplicativo. Crie um fluxo de navegação utilizando Stack, Tab e Drawer Navigation para proporcionar uma experiência de usuário fluida e intuitiva. Compreenda as diferenças entre os diferentes tipos de navegação e suas respectivas utilizações. Una diferentes tipos de navegação em uma única aplicação para atender às necessidades de sua aplicação de forma abrangente. Envie e receba parâmetros entre rotas para permitir a comunicação eficaz entre os diferentes componentes de seu aplicativo.',
                     image: 'https://i.ibb.co/br1mFj7/curso-React-Native-criando-menu-e-navegando-entre-telas.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
                 },
                 {
                     id: 18,
                     title: 'React-Native: criando testes para sua aplicação',
-                    description: '',
+                    description: 'Conheça os principais tipos de teste e sua importância em projetos. Instale e configure as bibliotecas jest, @testing-library/react-native e @testing-library/react-hooks. Faça testes de unidade com jest. Simule métodos utilizando mocks. Teste hooks com eficiência e praticidade. Carregue componentes em memória e teste seus comportamentos. Reduza bugs e ganhe mais confiabilidade e segurança em seus aplicativos.',
                     image: 'https://i.ibb.co/DGVw7sK/curso-React-Native-criando-testes-para-sua-aplicacao.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE','REACT-HOOKS']
                 },
                 {
                     id: 19,
                     title: 'React-Native: guardando informações localmente',
-                    description: '',
+                    description: 'Aplique a funcionalidade de mostrar, salvar, editar e excluir notas em um aplicativo real. Descubra a importância do armazenamento local para salvar dados e aprenda a utilizar ferramentas como AsyncStorage e SQLite. Compreenda o objetivo, diferenças, vantagens e desvantagens do AsyncStorage e do SQLite. Utilize consultas SELECT, INSERT, UPDATE e DELETE com SQLite. Implemente opções de armazenamento local com AsyncStorage e SQLite e coloque os aprendizados em prática com desafios.',
                     image: 'https://i.ibb.co/PN1mN7z/curso-React-Native-guardando-informacoes-localmente.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE','REACT-HOOKS','ASYNCSTORAGE','SQLITE']
                 },
                 {
                     id: 20,
                     title: 'React-Native: Personalize apps com animações',
-                    description: '',
+                    description: 'Identifique o que são e para que servem animações. Aprenda o que é e como utilizar o Shimmer Effect. Compreenda o propósito da biblioteca React Native Reanimated. Learn to animate notification buttons. Understand what Lottie is and how to use it. Create screens for animated Splash Screens.',
                     image: 'https://i.ibb.co/wg3DzWf/curso-React-Native-personalize-apps-com-animacoes.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE','REACT-HOOKS']
                 },
                 {
                     id: 21,
                     title: 'React-Native: Utilizando e criando hooks',
-                    description: '',
+                    description: 'Crie aplicações React Native com ambiente nativo. Utilize o emulador do Android. Crie listas otimizadas. Aprenda mais sobre estilos para Android e iOS. Armazene informações voláteis com hooks de estados. Controle efeitos colaterais com hooks de efeito. Crie seu próprio hook.',
                     image: 'https://i.ibb.co/t3jsBVD/curso-React-Native-utilizando-e-criando-Hooks.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE','REACT-HOOKS']
                 },
             ]
         },
@@ -202,52 +202,52 @@ export default function Certificates(langague: string) {
                 {
                     id: 1,
                     title: 'C: Advancing in the language',
-                    description: '',
+                    description: `Develop your programming skills in C++ while creating a complete hangman game! In this challenge, you will explore essential concepts, from functions and array manipulation to pointers and memory addresses. Learn to handle input and output, as well as writing to files to save game progress. Along the way, discover best programming practices that will help make your code more readable, efficient, and easy to maintain. Get ready to dive into a hands-on and enjoyable experience where you'll apply your knowledge to build a classic and challenging game.`,
                     image: 'https://i.ibb.co/bQvVFSh/curso-c-avan-ando-na-linguagem-eng-1.png',
                     hours: 8,
                     hoursTxt: '8 Hours',
-                    tags: ['C']
+                    tags: ['C','C++']
                 },
                 {
                     id: 2,
                     title: 'C: Knowing the language of languages',
-                    description: '',
+                    description: `Embark on your journey into C programming by learning how to create your first program. Understand the concept of variables and how they store data. Explore how your program can vary its behavior based on different conditions and inputs. Dive into performing mathematical operations to manipulate data effectively. Learn the use of conditionals and loops to control the flow of your program. Gain insights into how compilers work to translate your code into machine-readable instructions. Finally, put your newfound skills to the test by creating a complete guessing game, where players try to guess a secret number.`,
                     image: 'https://i.ibb.co/vBTP5bT/curso-c-conhecendo-a-linguagem-das-linguagens-eng-1.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['C']
+                    tags: ['C','C++']
                 },
                 {
                     id: 3,
                     title: 'C: Advanced language features',
-                    description: '',
+                    description: 'Enhance your C++ skills by writing recursive functions and manipulating arrays to create a complete Pac-Man game. Explore defining types and structures to efficiently organize your data. Understand compilation directives to optimize the compilation process and make your code more flexible. Learn to split your code into multiple files to facilitate maintenance and organization of the project. Get ready for an exciting journey as you build a video game classic, challenging yourself to implement all aspects of Pac-Man, from character movement to ghost logic and point collection.',
                     image: 'https://i.ibb.co/DrJvMCs/curso-c-recursos-avan-ados-da-linguagem-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['C']
+                    tags: ['C', 'C++']
                 },
                 {
                     id: 4,
                     title: 'Flask: Advancing web development with python',
-                    description: '',
+                    description: `Build a comprehensive CRUD application utilizing MySQL and SQLAlchemy for database management. Implement file upload functionality to enrich user interactions. Ensure form validation using Flask WTF to maintain data integrity. Enhance project security by integrating Flask Bcrypt for encryption and protection against unauthorized access. This combination of technologies empowers you to develop a robust web application with seamless data management, enhanced user experience, and strengthened security measures.`,
                     image: 'https://i.ibb.co/YLb8Dqz/curso-flask-avan-ando-no-desenvolvimento-web-com-python-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['PYTHON', 'FLASK']
+                    tags: ['PYTHON', 'FLASK', 'MYSQL', 'SQLALCHEMY']
                 },
                 {
                     id: 5,
                     title: 'Flask: Create a webapp with python',
-                    description: '',
+                    description: `Learn to create a web application with Flask, a Python microframework that offers ease and flexibility in development. By combining HTML and Bootstrap, you can create stylish and responsive websites. Additionally, you can protect your application by implementing a custom login and authorization system. Defining routes, redirections, and templates helps you organize content efficiently. With dynamic URLs, you can provide a personalized experience for users.`,
                     image: 'https://i.ibb.co/9pk0sh0/curso-flask-crie-uma-webapp-com-python-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['PYTHON', 'FLASK']
+                    tags: ['PYTHON', 'FLASK', 'HTML', 'BOOTSTRAP']
                 },
                 {
                     id: 6,
                     title: 'Git e Github: Sharing and collaborating on projects',
-                    description: '',
+                    description: `Create your project portfolio on GitHub to showcase your work to the world. Learn to share your project code, understand collaboration in teams, and version software projects using Git. Handling code conflicts and analyzing commit history are essential skills for any developer.`,
                     image: 'https://i.ibb.co/tpWSzqN/curso-git-github-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -256,7 +256,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 7,
                     title: 'Linux onboarding: using the CLI quickly and easily',
-                    description: '',
+                    description: 'Quickly and efficiently start using Linux by mastering essential skills. Manipulate files and directories through the command line interface (CLI), manage services, and delve into the system by accessing logs, processes, and devices. Learn to administer system users and groups as well.',
                     image: 'https://i.ibb.co/WFrP22C/curso-linux-onboarding-usando-a-cli-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -265,7 +265,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 8,
                     title: 'Programming logic: Explore functions and lists',
-                    description: '',
+                    description: 'Learn about functions and how to use JavaScript to manipulate elements on the screen. Hone your programming logic with real-world projects. Understand how to publish your projects using Github and Vercel. Discover the use of lists, a fundamental data structure in programming. Create dynamic manipulations of words and numbers with JavaScript.',
                     image: 'https://i.ibb.co/kXyPyLY/curso-logica-de-programacao-eng.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
@@ -274,7 +274,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 9,
                     title: 'Programming logic: Dive into programming with javaScript',
-                    description: '',
+                    description: `Display messages interactively on the screen. Use variables in software development and follow best programming practices when entering the world of development. Develop a complete application, inspired by real-world scenarios, from start to finish. Learn to adapt solutions provided by the language in your software programs.`,
                     image: 'https://i.ibb.co/ZgTCZ91/curso-logica-de-programacao-mergulhe-Java-Script-eng.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
@@ -283,7 +283,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 10,
                     title: 'Python: Applying object orientation',
-                    description: '',
+                    description: 'Understand the importance of Object-Oriented Programming with Python and discover how classes and attributes are crucial in real-world projects. Use static methods and encapsulation to enhance your programming practice. Understand how properties can contain additional logic beyond simple value access and assignment. Learn how classes in Python can efficiently organize and structure your code, using the constructor to initialize objects and define their initial states.',
                     image: 'https://i.ibb.co/XLBfdRF/curso-python-aplicando-a-orientacao-a-objetos-eng.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
@@ -292,7 +292,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 11,
                     title: 'Python: Advancing object-oriented',
-                    description: '',
+                    description: `Understand the concept of Duck Typing and its usefulness in Python's type flexibility. Create abstract classes and explore multiple inheritance for code reuse. Learn about Python's data model and how it influences object manipulation. Get to know Mixins and class extension for modularity and behavior reuse. Understand the difference between the special methods __str__ and __repr__ in object representation.`,
                     image: 'https://i.ibb.co/1MXm0jD/curso-python-avancando-na-orientacao-a-objetos-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
@@ -301,7 +301,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 12,
                     title: 'Python: Advance in object orientation and consuming API',
-                    description: '',
+                    description: `Implement inheritance and abstract classes to promote code reuse and modularity in your Python projects. Master the concept of polymorphism to write flexible and adaptable code. Learn how to integrate your projects with external applications to expand their functionalities. Understand how to create JSON files practically to store and share structured data. Create and activate virtual environments in Python to keep your project dependencies isolated and manage package versions with ease.`,
                     image: 'https://i.ibb.co/1RVfP01/curso-python-avance-na-orientacao-a-objetos-e-consuma-API-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -310,7 +310,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 13,
                     title: 'Python e TDD: Exploring unit tests',
-                    description: '',
+                    description: `Learn how to create your first unit tests with Python and get to know the main testing framework, Pytest. Understand the concept of Test-Driven Development (TDD) and how to apply it. Know how to create tests that handle exceptions and use markers to organize and enhance the execution of your tests. Learn about test coverage and how to verify it.`,
                     image: 'https://i.ibb.co/WcH2Rg8/curso-python-e-TDD-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -319,7 +319,7 @@ export default function Certificates(langague: string) {
                 {
                     id: 14,
                     title: 'Python: Creating your first application',
-                    description: '',
+                    description: `Create a Python project using VSCode and explore the flow of an application using conditionals and loops. Learn to use try-except control blocks to handle exceptions. Develop functions to display the main menu and register restaurants in lists and dictionaries.`,
                     image: 'https://i.ibb.co/ZWPQJs2/curso-python-primeira-aplicacao-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
@@ -328,65 +328,65 @@ export default function Certificates(langague: string) {
                 {
                     id: 15,
                     title: 'React: Getting to know the React-Router library',
-                    description: '',
+                    description: `Learn how to refactor a project using ESLint and develop scalable code, prioritizing cleanliness and ease of understanding. Utilize the react-router-dom package in a simple and practical way, learning all the main concepts of the library. Discover how the library integrates with the browser and leverages native features to manipulate routes and share states. Create screens navigating between them in various different ways and reuse components across them. Understand nested routes and how to create them to reuse code and solve problems.`,
                     image: 'https://i.ibb.co/v352D2J/curso-React-conhecendo-a-biblioteca-React-Router-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT', 'REACT-ROUTER']
+                    tags: ['REACT', 'REACT-ROUTER', 'ESLINT']
                 },
                 {
                     id: 16,
                     title: 'React: Writing with TypeScript',
-                    description: '',
+                    description: `Create a React project with Typescript from scratch using Create React App. Understand fundamental React concepts such as Componentization, Props, and State. Avoid CSS overlaps with CSS Modules. Learn about the useState and useEffect hooks and understand how they were used in class components. Keep your code clean and documented following the most current React writing practices. Develop your code with good practice concepts such as DRY (Don't repeat yourself) and SRP (Single Responsibility Principle).`,
                     image: 'https://i.ibb.co/3Sw2TQ6/curso-React-escrevendo-com-Typescript-eng.png',
                     hours: 12,
                     hoursTxt: '12 Horas',
-                    tags: ['REACT', 'TYPESCRIPT']
+                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS']
                 },
                 {
                     id: 17,
                     title: 'React-Native: creating menu and navigating between screens',
-                    description: '',
+                    description: 'Install the React Navigation library to manage navigation in your app. Create a navigation flow using Stack, Tab, and Drawer Navigation to provide a smooth and intuitive user experience. Understand the differences between the different types of navigation and their respective use cases. Combine different types of navigation in a single application to meet the comprehensive needs of your app. Send and receive parameters between routes to enable effective communication between different components of your app.',
                     image: 'https://i.ibb.co/72B6MQg/curso-React-Native-criando-menu-e-navegando-entre-telas-eng.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
                 },
                 {
                     id: 18,
                     title: 'React-Native: creating tests for your application',
-                    description: '',
+                    description: 'Learn about the main types of tests and their importance in projects. Install and configure the jest, @testing-library/react-native, and @testing-library/react-hooks libraries. Perform unit tests with jest. Simulate methods using mocks. Test hooks efficiently and conveniently. Load components into memory and test their behaviors. Reduce bugs and gain more reliability and security in your applications.',
                     image: 'https://i.ibb.co/LN7BRNz/curso-React-Native-criando-testes-para-sua-aplicacao-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
                 },
                 {
                     id: 19,
                     title: 'React-Native: storing information locally',
-                    description: '',
+                    description: 'Implement the functionality to display, save, edit, and delete notes in a real-world application. Discover the importance of local storage for saving data and learn how to use tools like AsyncStorage and SQLite. Understand the purpose, differences, advantages, and disadvantages of AsyncStorage and SQLite. Utilize SELECT, INSERT, UPDATE, and DELETE queries with SQLite. Implement local storage options with AsyncStorage and SQLite and put your learnings into practice with challenges.',
                     image: 'https://i.ibb.co/t3FxkZc/curso-React-Native-guardando-informacoes-localmente-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS', 'ASYNCSTORAGE', 'SQLITE']
                 },
                 {
                     id: 20,
                     title: 'React-Native: Customize apps with animations',
-                    description: '',
+                    description: 'Identify what animations are and their purpose. Learn about and how to use the Shimmer Effect. Understand the React Native Reanimated library. Learn to animate notification buttons. Understand what Lottie is and how to use it. Create screens for animated Splash Screens.',
                     image: 'https://i.ibb.co/9qHPDVB/curso-React-Native-personalize-apps-com-animacoes-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
                 },
                 {
                     id: 21,
                     title: 'React-Native: Using and creating hooks',
-                    description: '',
+                    description: 'Create React Native applications with native environment. Use the Android emulator. Create optimized lists. Learn more about styles for Android and iOS. Store volatile information with state hooks. Control side effects with effect hooks. Create your own hook.',
                     image: 'https://i.ibb.co/Rv4WfPh/curso-React-Native-utilizando-e-criando-Hooks-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT-NATIVE']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
                 },
             ]
         }
@@ -397,3 +397,13 @@ export default function Certificates(langague: string) {
         }
         return json['pt-br'];
 };
+
+export function TotalHours(langague: string){
+    let total = 0;
+    const json = Certificates(langague);
+    json.certificates.forEach(cert => {
+        total += cert.hours;
+    });
+    return total;
+    
+}

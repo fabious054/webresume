@@ -10,6 +10,20 @@ export default function SelectInfo() {
         { id: 7,value: 'REACT', title: 'REACT' },
         { id: 8,value: 'TYPESCRIPT', title: 'TYPESCRIPT' },
         { id: 9,value: 'REACT-NATIVE', title: 'REACT-NATIVE' },
+        { id: 10,value: 'MYSQL', title: 'MYSQL' },
+        { id: 11,value: 'SQLALCHEMY', title: 'SQLALCHEMY' },
+        { id: 12,value: 'PYTEST', title: 'PYTEST' },
+        { id: 13,value: 'ESLINT', title: 'ESLINT' },
+        { id: 14,value: 'REACT-HOOKS', title: 'REACT-HOOKS' },
+        { id: 15,value: 'ASYNCSTORAGE', title: 'ASYNCSTORAGE' },
+        { id: 16,value: 'SQLITE', title: 'SQLITE' },
     ];
+
+    //order by title
+    json.sort((a, b) => {
+        return a.title.localeCompare(b.title);
+    }
+    );
+
         return json;
 };

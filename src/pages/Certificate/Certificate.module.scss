@@ -1,20 +1,67 @@
 @import '../../styles/variables.scss';
 
+
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding: 2rem;
 
-    .certificate_item{
-        width: 60%;
-        padding: 1.5rem;
-        background-color: $principalBgColor;
-        border-radius: 1rem;
-        img{
-            width: 100%;
-            height: auto;
-        }
+    .content_box{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr .7fr;
+        grid-template-rows: 1fr auto;
         
+
+        .certificate__img_box{
+            border-top-left-radius: 1rem;
+            img{
+                width: 100%;
+                border-top-left-radius: 1rem;
+            }
+        }
+
+        .certificate__info_box{
+            padding-inline: 1rem;
+            padding-top: 1rem;
+            border-top-right-radius: 1rem;
+            border: 1px solid $principalBgColor;
+            border-bottom: none;
+            background-color: $principalTitlesColor;
+
+            .certificate__info_box__content{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+
+                .description{
+                    span{
+                        font-size: .8rem;
+                    }
+                }
+
+                .tags{
+                    padding: .4rem;
+                }
+            }
+        }
+
+        .certificate__title_box{
+            grid-column: span 2;
+            background-color: $principalBgColor;
+            color: $principalTitlesColor;
+            text-align: center;
+            padding: .5rem;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            
+            h2{
+                padding: 0px;
+                margin: 0px;
+            }
+        }
     }
+
 }

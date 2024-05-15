@@ -26,9 +26,25 @@ export default function Certificate() {
 
     return(
         <div className={styles.container}>
-            <div className={styles.certificate_item}>
-                <img src={certificate?.image} alt="" />
+            <div className={styles.content_box}>
+                <div className={styles.certificate__img_box}>
+                    <img src={certificate?.image} alt="" />
+                </div>
+                <div className={styles.certificate__info_box}>
+                    <div className={styles.certificate__info_box__content}>
+                        <div className={styles.description}>
+                            <span>{certificate?.description}</span>
+                        </div>
+                        <div className={styles.tags}>
+                            b
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.certificate__title_box}>
+                    <h2>{certificate?.title}</h2>
+                </div>
             </div>
+            
         </div>
     );
 }
