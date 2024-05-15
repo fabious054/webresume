@@ -36,7 +36,7 @@ export default function Certificate() {
                             <span>{certificate?.description}</span>
                         </div>
                         <div className={styles.tags}>
-                            b
+                            
                         </div>
                     </div>
                 </div>

@@ -52,9 +52,15 @@
 @media (max-width: 1366px){
     .aside{
         width:$sideBarWidthSmaller;
-        // height: fit-content;
+        // height: ;
+        .name{
+            font-size: 1rem;
+        }
+        .addres{
+            font-size: .7rem;
+        }
         .photo__box{
-            height: 15rem;
+            height: 14rem;
         }
     }
 

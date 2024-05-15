@@ -32,7 +32,7 @@ export default function Footer() {
                 <div onClick={()=> openLink('mailto:fabio.h.abreu99@gmail.com')} title='Gmail' className={style.logo}>
                     <img src={gmail} alt="" />
                 </div>
-                <div onClick={()=> openLink('https://www.linkedin.com/in/fabio-abreu-544a78221/')} title='Instagram' className={style.logo}>
+                <div onClick={()=> openLink('https://www.instagram.com/fabext_/?igsh=MTkxMzEzanlrb2NxMQ%3D%3D&utm_source=qr')} title='Instagram' className={style.logo}>
                     <img src={instagram} alt="" />
                 </div>
             </div>

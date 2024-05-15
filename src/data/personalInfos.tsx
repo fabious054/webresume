@@ -24,3 +24,9 @@ export default function PersonalInfos(langague: string) {
         }
         return json['pt-br'];
 };
+
+export function experienceYears() {
+    const startYear = 2022;
+    const currentYear = new Date().getFullYear();
+    return currentYear - startYear;
+}
