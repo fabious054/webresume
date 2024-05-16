@@ -194,6 +194,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['REACT-NATIVE','REACT-HOOKS']
                 },
+                {
+                    id: 22,
+                    title: 'HTTP: Entendendo a web por baixo dos panos',
+                    description: 'Compreender a arquitetura e os conceitos fundamentais do protocolo HTTP. Implementar o HTTPS para proteger os dados de uma aplicação durante a comunicação na web. Explorar os principais avanços trazidos pelo HTTP/2 e HTTP/3 para otimizar a performance. Desvendar os componentes das mensagens HTTP, como requisições, respostas e cabeçalhos. Entender o que são URLs e domínios na web.',
+                    image: 'https://i.ibb.co/nMRbN2Y/curso-http-entendendo-a-web-por-baixo-dos-panos.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['HTTP']
+                },
             ]
         },
         'en': {
@@ -387,6 +396,15 @@ export default function Certificates(langague: string) {
                     hours: 10,
                     hoursTxt: '10 Horas',
                     tags: ['REACT-NATIVE', 'REACT-HOOKS']
+                },
+                {
+                    id: 22,
+                    title: 'HTTP: Understanding the Web Under the Hood',
+                    description: 'Understanding the architecture and fundamental concepts of the HTTP protocol. Implementing HTTPS to protect application data during web communication. Exploring the major advancements brought by HTTP/2 and HTTP/3 to optimize performance. Unraveling the components of HTTP messages, such as requests, responses, and headers. Understanding what URLs and domains are on the web.',
+                    image: 'https://i.ibb.co/5L3x8h3/curso-http-entendendo-a-web-por-baixo-dos-panos-eng.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['HTTP']
                 },
             ]
         }

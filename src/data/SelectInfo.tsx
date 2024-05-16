@@ -17,6 +17,7 @@ export default function SelectInfo() {
         { id: 14,value: 'REACT-HOOKS', title: 'REACT-HOOKS' },
         { id: 15,value: 'ASYNCSTORAGE', title: 'ASYNCSTORAGE' },
         { id: 16,value: 'SQLITE', title: 'SQLITE' },
+        { id: 17,value: 'HTTP', title: 'HTTP' },
     ];
 
     //order by title
