@@ -203,6 +203,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['HTTP']
                 },
+                {
+                    id: 23,
+                    title: 'React: estilize componentes com Styled-Components e manipule arquivos estáticos',
+                    description: 'Este curso prático explora as diferenças entre Vite e CRA, destacando as vantagens do Styled Components. Você aprenderá a criar uma NavBar e estilizar banners, projetar componentes React para imagens e legendas, estilizar galerias de fotos e adicionar uma barra lateral de imagens populares com footer.',
+                    image: 'https://i.ibb.co/FVGLZBm/curso-react-estilize-componentes-com-Styled-Components-e-manipule-arquivos-estaticos-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['REACT', 'STYLED-COMPONENTS','REACT-HOOKS ','CSS']
+                },
             ]
         },
         'en': {
@@ -405,6 +414,15 @@ export default function Certificates(langague: string) {
                     hours: 10,
                     hoursTxt: '10 Horas',
                     tags: ['HTTP']
+                },
+                {
+                    id: 23,
+                    title: 'React: Style components using Styled-Components and manipulate static files.',
+                    description: `This hands-on course explores the differences between Vite and CRA, highlighting the advantages of Styled Components. You'll learn to create a NavBar and style banners, design React components for images and captions, style photo galleries, and add a popular image sidebar with a footer.`,
+                    image: 'https://i.ibb.co/tMv1YsZ/curso-react-estilize-componentes-com-Styled-Components-e-manipule-arquivos-estaticos-eng-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['REACT', 'STYLED-COMPONENTS','REACT-HOOKS ','CSS']
                 },
             ]
         }

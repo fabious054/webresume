@@ -18,6 +18,7 @@ export default function SelectInfo() {
         { id: 15,value: 'ASYNCSTORAGE', title: 'ASYNCSTORAGE' },
         { id: 16,value: 'SQLITE', title: 'SQLITE' },
         { id: 17,value: 'HTTP', title: 'HTTP' },
+        { id: 18,value: 'CSS', title: 'CSS' },
     ];
 
     //order by title
