@@ -38,7 +38,9 @@ export const Item = (certificates:Props) => {
                         <img src={certificate.image} alt="" />
                         <div className={styles.rightDetails}><i className="bi bi-eye-fill"></i></div>
                     </div>
-                    <button title={btnTtle}>oi   
+                    <button title={btnTtle}>
+                    <span className={styles.tags}></span>
+                    <span className={styles.txt}>{btnTxt} <i className="bi bi-arrow-right-circle"></i></span>   
                     </button>
                 </div>
             ))}

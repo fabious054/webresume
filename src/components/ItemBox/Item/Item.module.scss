@@ -48,9 +48,7 @@
     }
 
     button{
-        background-color: $principalBgColor;
-        border-color: $principalBgColor ;
-        color: $principalTitlesColor;
+        color: $principalBgColor;
         width: 100%;
         padding-top: .2rem;
         padding-bottom: .2rem;
@@ -61,7 +59,47 @@
         transition: all .2s;
 
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+
+        .txt{
+            background-color: $secondaryColor;
+            color: $principalTextColor;
+            font-weight: 700;
+            padding: 0.3rem 1rem;
+            border-radius: 5px;
+            position: relative;
+            top: -15px;
+
+        }
+    }
+}
+
+@media (max-width: 1366px){
+    .item{
+        .itemContent{
+            .rightDetails{
+                font-size: 4rem;
+            }
+        }
+        button{
+            .txt{
+                font-size: .75rem;
+                font-weight: 700;
+                padding: 0.2rem .7rem;
+    
+            }
+        }
+    }
+}
+@media (max-width: 500px){
+    .item{
+        padding-inline: 3rem;
+        .itemContent{
+            .rightDetails{
+                font-size: 6rem;
+            }
+        }
+
     }
 }
