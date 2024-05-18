@@ -18,18 +18,17 @@
 
     .name{
         color: $principalTitlesColor;
-        font-size: 1.5rem;
-        font-weight: 400;
+        font-size: 1.4rem;
+        font-weight: 700;
         text-align: center;
-        margin-top: 1rem;
+        margin-top: .5rem;
         margin-bottom: 0px;
     }
     .addres{
         color: $principalTitlesColor;
-        font-size: .9rem;
-        font-weight: 400;
+        font-size: .7rem;
         text-align: center;
-        margin-top: 0.5rem;
+        margin-top: 0.1rem;
     }
 }
 
@@ -57,7 +56,7 @@
             font-size: 1rem;
         }
         .addres{
-            font-size: .7rem;
+            font-size: .6rem;
         }
         .photo__box{
             height: 14rem;
@@ -70,19 +69,19 @@
 @media (max-width: 800px){
     .aside{
         width: 100%;
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         height: fit-content;
 
         .name{
             font-weight: 700;
             text-align: center;
-            margin-top: 1rem;
+            margin-top: .5rem;
             margin-bottom: 0px;
         }
         .addres{
             font-weight: 400;
             text-align: center;
-            margin-top: 0.5rem;
+            margin-top: 0.3rem;
         }
     }
  }
@@ -92,20 +91,16 @@
     .aside{
         width: 100%;
         height: fit-content;
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
 
         .name{
-            font-size: 1.3rem;
-            font-weight: 700;
-            text-align: center;
-            margin-top: 1rem;
-            margin-bottom: 0px;
+            font-size: 1rem;
         }
         .addres{
-            font-size: .7rem;
+            font-size: .55rem;
             font-weight: 400;
             text-align: center;
-            margin-top: 0.5rem;
+            margin-top: 0.2rem;
         }
     }
  }

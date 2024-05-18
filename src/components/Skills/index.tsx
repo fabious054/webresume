@@ -31,7 +31,7 @@ export default function Skills(skills: jsonProps) {
 
     return (
         <section className={styles.skills}>
-            <h2>{skills.componentLabel} :</h2>
+            <h2>{skills.componentLabel}</h2>
             <ul>
                 {skillsList.map((skill: any) => (
                     <li key={skill.name}>

@@ -1,20 +1,30 @@
 @import '../../styles/variables.scss';
 
+//animacao de girar a estrela
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .skills{
     width: 70%;
     padding-inline: 1rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
     margin: auto;
-    background-color: #1a4872;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     border-radius: 5%;
+    border: 1px solid #ededee;
 
     h2{
         color: $principalTitlesColor;
         margin: 0px;
         font-size: 1.2rem;
-        font-weight: 400;
+        font-weight: 700;
     }
 
     ul{
@@ -25,27 +35,31 @@
             margin-bottom: .5rem;
             border-bottom: 1px solid $principalTitlesColor;
             &:hover{
-                background-color: #0f2c4b;
-                transform: matrix(1.06, 0, 0, 1.06, 0, 0);
-
+                .skill__box{
+                    .skill__stars_box{
+                        img{
+                            animation: rotate 1s infinite linear;
+                        }
+                    }
+                }
             }
             
             .skill__box{
                 display: flex;
                 justify-content: space-between;
-
                 .skill__title{
                     margin: 0px;
                     color:$principalTitlesColor;
-                    font-size: .8rem;
+                    font-size: .7rem;
+                    font-weight: 500;
                 }
                 .skill__stars_box{
                     display: flex;
-
                     img{
-                        width: 1rem;
-                        height: 1rem;
+                        width: .7rem;
+                        height: .7rem;
                         filter: grayscale(100%);
+                        transition: all .9s ease;
                     }
                     img.color{
                         filter: none;
@@ -87,8 +101,9 @@
 
 @media (max-width: 800px){
     .skills{
+        border-radius: 15px;
         h2{
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
         ul{
             li{
@@ -96,7 +111,7 @@
                     .skill__title{
                         margin: 0px;
                         color:$principalTitlesColor;
-                        font-size: 1.1rem;
+                        font-size: .8rem;
                     }
                 }
             }
@@ -106,5 +121,21 @@
 }
 
 @media (max-width: 500px){
+    .skills{
+        h2{
+            font-size: .8rem;
+        }
+        ul{
+            li{
+                .skill__box{
+                    .skill__title{
+                        margin: 0px;
+                        color:$principalTitlesColor;
+                        font-size: .6rem;
+                    }
+                }
+            }
+        }
+    }
 }
 

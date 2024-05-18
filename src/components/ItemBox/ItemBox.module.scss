@@ -16,11 +16,11 @@
     .box__content{
         display: grid;
         grid-template-columns: repeat(3, 2fr);
-        gap: 2rem;
+        gap: 1rem;
 
         //scroll
         overflow: auto;
-        max-height: 60vh;
+        max-height: 75vh;
 
         &::-webkit-scrollbar {
             width: 8px; /* largura da barra de rolagem */
