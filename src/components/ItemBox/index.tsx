@@ -30,7 +30,7 @@ export const ItemBox = () => {
     return (
         <div className={styles.box}>
             <div className={styles.header__itemBox}>
-                <h3 className={styles.box__title}>{certificates.title} :</h3>
+                <h3 className={styles.box__title}>{certificates.title}</h3>
                 <Select onChange={changeOption} options={options} />
             </div>
             <div className={styles.box__content}>

@@ -3,8 +3,8 @@
 .aside{
     width: $sideBarWidth;
     height: 100vh;
-    background-color: #13293d;
-    box-shadow: #13293d 4px 0px 10px 0px;
+    background-color: $principalColor;
+    box-shadow: $principalColor 4px 0px 10px 0px;
 
     .photo__box{
         width: 100%;
@@ -17,7 +17,7 @@
     }
 
     .name{
-        color: $principalTitlesColor;
+        color: $principalTextColor;
         font-size: 1.4rem;
         font-weight: 700;
         text-align: center;
@@ -25,7 +25,7 @@
         margin-bottom: 0px;
     }
     .addres{
-        color: $principalTitlesColor;
+        color: $principalTextColor;
         font-size: .7rem;
         text-align: center;
         margin-top: 0.1rem;

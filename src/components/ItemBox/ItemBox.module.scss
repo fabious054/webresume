@@ -1,29 +1,34 @@
 @import '../../styles/variables.scss';
 
 .box{
-    padding: 0.6rem;
     .header__itemBox{
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+            h3{
+                padding: 0px;
+                margin: 0px;
+            }
         .box__title{
             font-size: 1.3rem;
-            font-weight: bold;
+            font-weight: 700;
             color: $principalBgColor;
         }
     }
     
     .box__content{
+        margin-top: 1rem;
         display: grid;
         grid-template-columns: repeat(3, 2fr);
-        gap: 1rem;
+        gap: 2rem;
 
         //scroll
         overflow: auto;
         max-height: 75vh;
 
         &::-webkit-scrollbar {
-            width: 8px; /* largura da barra de rolagem */
+            width: 7px; /* largura da barra de rolagem */
           }
         &::-webkit-scrollbar-track {
         background: #f1f1f1; /* cor do fundo da barra de rolagem */
