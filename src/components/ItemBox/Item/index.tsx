@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import { LanguageContext } from '../../../contexts';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { Tag } from '../../Tag';
 
 
 interface Certificate {
@@ -39,7 +40,13 @@ export const Item = (certificates:Props) => {
                         <div className={styles.rightDetails}><i className="bi bi-eye-fill"></i></div>
                     </div>
                     <button title={btnTtle}>
-                    <span className={styles.tags}></span>
+                    <span className={styles.tags}>
+                        {certificate.tags.map((tag, index) => (
+                            <div className={styles.tag} key={index}>
+                                <Tag tag={tag} />
+                            </div>
+                        ))}
+                    </span>
                     <span className={styles.txt}>{btnTxt} <i className="bi bi-arrow-right-circle"></i></span>   
                     </button>
                 </div>

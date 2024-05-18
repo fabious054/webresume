@@ -39,7 +39,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/LZXgLs9/curso-flask-avan-ando-no-desenvolvimento-web-com-python.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['PYTHON', 'FLASK', 'MYSQL', 'SQLALCHEMY']
+                    tags: ['PYTHON', 'FLASK', 'MYSQL', 'SQLALCHEMY','BOOTSTRAP','HTML','CSS']
                 },
                 {
                     id: 5,
@@ -111,7 +111,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/HG4r0ds/curso-python-avance-na-orientacao-a-objetos-e-consuma-API.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['PYTHON']
+                    tags: ['PYTHON','HTTP','API']
                 },
                 {
                     id: 13,
@@ -129,7 +129,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/R9tVjC2/curso-python-primeira-aplicacao.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['PYTHON', 'TDD']
+                    tags: ['PYTHON', 'TDD','HTML','CSS','BOOTSTRAP']
                 },
                 {
                     id: 15,
@@ -138,7 +138,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/x8WJjXb/curso-React-conhecendo-a-biblioteca-React-Router.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT', 'REACT-ROUTER', 'ESLINT']
+                    tags: ['REACT', 'REACT-ROUTER', 'ESLINT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 16,
@@ -147,7 +147,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/qDP0Hjc/curso-React-escrevendo-com-Typescript.png',
                     hours: 12,
                     hoursTxt: '12 Horas',
-                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS']
+                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 17,
@@ -156,7 +156,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/br1mFj7/curso-React-Native-criando-menu-e-navegando-entre-telas.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
-                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 18,
@@ -165,7 +165,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/DGVw7sK/curso-React-Native-criando-testes-para-sua-aplicacao.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT-NATIVE','REACT-HOOKS']
+                    tags: ['REACT-NATIVE','REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 19,
@@ -174,7 +174,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/PN1mN7z/curso-React-Native-guardando-informacoes-localmente.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT-NATIVE','REACT-HOOKS','ASYNCSTORAGE','SQLITE']
+                    tags: ['REACT-NATIVE','REACT-HOOKS','ASYNCSTORAGE','SQLITE','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 20,
@@ -183,7 +183,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/wg3DzWf/curso-React-Native-personalize-apps-com-animacoes.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT-NATIVE','REACT-HOOKS']
+                    tags: ['REACT-NATIVE','REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 21,
@@ -192,7 +192,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/t3jsBVD/curso-React-Native-utilizando-e-criando-Hooks.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT-NATIVE','REACT-HOOKS']
+                    tags: ['REACT-NATIVE','REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 22,
@@ -201,7 +201,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/nMRbN2Y/curso-http-entendendo-a-web-por-baixo-dos-panos.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['HTTP']
+                    tags: ['HTTP','API']
                 },
                 {
                     id: 23,
@@ -210,7 +210,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/FVGLZBm/curso-react-estilize-componentes-com-Styled-Components-e-manipule-arquivos-estaticos-1.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT', 'STYLED-COMPONENTS','REACT-HOOKS ','CSS']
+                    tags: ['REACT', 'STYLED-COMPONENTS','REACT-HOOKS ','CSS', 'HTML']
                 },
             ]
         },
@@ -251,7 +251,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/YLb8Dqz/curso-flask-avan-ando-no-desenvolvimento-web-com-python-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['PYTHON', 'FLASK', 'MYSQL', 'SQLALCHEMY']
+                    tags: ['PYTHON', 'FLASK', 'MYSQL', 'SQLALCHEMY', 'BOOTSTRAP', 'HTML', 'CSS']
                 },
                 {
                     id: 5,
@@ -323,7 +323,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/1RVfP01/curso-python-avance-na-orientacao-a-objetos-e-consuma-API-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['PYTHON']
+                    tags: ['PYTHON', 'HTTP', 'API']
                 },
                 {
                     id: 13,
@@ -332,7 +332,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/WcH2Rg8/curso-python-e-TDD-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['PYTHON', 'TDD']
+                    tags: ['PYTHON', 'TDD', 'PYTEST']
                 },
                 {
                     id: 14,
@@ -341,7 +341,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/ZWPQJs2/curso-python-primeira-aplicacao-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['PYTHON', 'TDD']
+                    tags: ['PYTHON', 'TDD','HTML','CSS','BOOTSTRAP']
                 },
                 {
                     id: 15,
@@ -350,7 +350,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/v352D2J/curso-React-conhecendo-a-biblioteca-React-Router-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT', 'REACT-ROUTER', 'ESLINT']
+                    tags: ['REACT', 'REACT-ROUTER', 'ESLINT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 16,
@@ -359,7 +359,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/3Sw2TQ6/curso-React-escrevendo-com-Typescript-eng.png',
                     hours: 12,
                     hoursTxt: '12 Horas',
-                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS']
+                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 17,
@@ -368,7 +368,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/72B6MQg/curso-React-Native-criando-menu-e-navegando-entre-telas-eng.png',
                     hours: 6,
                     hoursTxt: '6 Horas',
-                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 18,
@@ -377,7 +377,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/LN7BRNz/curso-React-Native-criando-testes-para-sua-aplicacao-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 19,
@@ -386,7 +386,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/t3FxkZc/curso-React-Native-guardando-informacoes-localmente-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT-NATIVE', 'REACT-HOOKS', 'ASYNCSTORAGE', 'SQLITE']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS', 'ASYNCSTORAGE', 'SQLITE','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 20,
@@ -395,7 +395,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/9qHPDVB/curso-React-Native-personalize-apps-com-animacoes-eng.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 21,
@@ -404,7 +404,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/Rv4WfPh/curso-React-Native-utilizando-e-criando-Hooks-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT-NATIVE', 'REACT-HOOKS']
+                    tags: ['REACT-NATIVE', 'REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
                 },
                 {
                     id: 22,
@@ -413,7 +413,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/5L3x8h3/curso-http-entendendo-a-web-por-baixo-dos-panos-eng.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['HTTP']
+                    tags: ['HTTP','API']
                 },
                 {
                     id: 23,
@@ -422,7 +422,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/tMv1YsZ/curso-react-estilize-componentes-com-Styled-Components-e-manipule-arquivos-estaticos-eng-1.png',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['REACT', 'STYLED-COMPONENTS','REACT-HOOKS ','CSS']
+                    tags: ['REACT', 'STYLED-COMPONENTS','REACT-HOOKS ','CSS', 'HTML']
                 },
             ]
         }

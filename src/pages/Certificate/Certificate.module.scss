@@ -2,6 +2,23 @@
 
 
 .container{
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        button{
+            border-radius: 5px;
+            border: none;
+            color: $principalTextColor;
+            background-color: $principalBgColor;
+            padding: .5rem 1rem;
+            font-size: .9rem;
+            cursor: pointer;
+            margin-bottom: .5rem;
+        
+        }
+    }
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,6 +61,7 @@
 
                 .tags{
                     padding: .4rem;
+                    text-align: center;
                 }
             }
         }
@@ -67,6 +85,11 @@
 }
 @media (max-width: 1366px){
     .container{
+        .header{
+            button{
+                font-size: .7rem;
+            }
+        }
         .content_box{
             grid-template-columns: 2fr 1fr ;
             grid-template-rows: 1fr auto;
@@ -167,6 +190,12 @@
 
 @media (max-width: 500px){
     .container{
+        .header{
+            button{
+                font-size: .6rem;
+                padding: .35rem .85rem;
+            }
+        }
         .content_box{
             .certificate__info_box{
                 grid-column: span 2;
