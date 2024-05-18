@@ -37,8 +37,9 @@
             &:hover{
                 .skill__box{
                     .skill__stars_box{
-                        img{
-                            animation: rotate 1s infinite linear;
+                        img.color{
+                            animation: none;
+
                         }
                     }
                 }
@@ -63,6 +64,7 @@
                     }
                     img.color{
                         filter: none;
+                        animation: rotate 6s infinite linear;
                     }
                 }
             }
