@@ -1,5 +1,7 @@
+@import '../../styles/variables.scss';
+
 .tag{
-    border-radius: 5px;
+    border-radius: $border-radius;
     margin-right: .3rem;
     width: 1.4rem;
     height: 1.4rem;

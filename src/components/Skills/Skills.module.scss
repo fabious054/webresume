@@ -17,7 +17,7 @@
     padding-bottom: .5rem;
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    border-radius: 5%;
+    border-radius: $border-radius;
     border: 1px solid #ededee;
 
     h2{
@@ -103,7 +103,7 @@
 
 @media (max-width: 800px){
     .skills{
-        border-radius: 15px;
+        border-radius: $border-radius;
         h2{
             font-size: 1rem;
         }

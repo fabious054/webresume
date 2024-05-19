@@ -36,7 +36,7 @@
 
         &::-webkit-scrollbar-thumb {
         background: $principalBgColor; /* cor do indicador de rolagem */
-        border-radius: 6px; /* borda arredondada do indicador */
+        border-radius: $border-radius; /* borda arredondada do indicador */
         }
 
     }
