@@ -21,7 +21,7 @@
     border: 1px solid #ededee;
 
     h2{
-        color: $principalTitlesColor;
+        color: $principalTextColor;
         margin: 0px;
         font-size: 1.2rem;
         font-weight: 700;
@@ -33,7 +33,7 @@
 
         li{
             margin-bottom: .5rem;
-            border-bottom: 1px solid $principalTitlesColor;
+            border-bottom: 1px solid $principalTextColor;
             &:hover{
                 .skill__box{
                     .skill__stars_box{
@@ -50,7 +50,7 @@
                 justify-content: space-between;
                 .skill__title{
                     margin: 0px;
-                    color:$principalTitlesColor;
+                    color:$principalTextColor;
                     font-size: .7rem;
                     font-weight: 500;
                 }
@@ -77,7 +77,6 @@
 @media (min-width: 2500px){
     .skills{
         h2{
-            color: $principalTitlesColor;
             margin: 0px;
             font-size: 1.8rem;
         }
@@ -112,7 +111,6 @@
                 .skill__box{
                     .skill__title{
                         margin: 0px;
-                        color:$principalTitlesColor;
                         font-size: .8rem;
                     }
                 }
@@ -132,7 +130,7 @@
                 .skill__box{
                     .skill__title{
                         margin: 0px;
-                        color:$principalTitlesColor;
+                        color:$principalTextColor;
                         font-size: .6rem;
                     }
                 }

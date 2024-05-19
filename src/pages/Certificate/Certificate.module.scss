@@ -54,7 +54,7 @@
             border-bottom-right-radius: 1rem;
             border: 1px solid $secondaryColor;
             border-left: none;
-            background-color: $principalTitlesColor;
+            background-color: $principalTextColor;
 
             .certificate__info_box__content{
                 display: flex;
@@ -108,7 +108,7 @@
             .certificate__title_box{
                 grid-column: span 2;
                 background-color: $principalColor;
-                color: $principalTitlesColor;
+                color: $principalTextColor;
                 text-align: center;
                 padding: .5rem;
                 border-bottom-left-radius: 1rem;
