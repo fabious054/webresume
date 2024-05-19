@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.container{
+    background-color: $secondaryColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    width: fit-content;
+    border-radius: $border-radius;
+    padding: .1rem .8rem;
+
+    p{
+        color: $principalTextColor;
+        font-size: .75rem;
+        font-weight: 700;
+        margin: .2rem;
+    }
+
+}
+
+@media (max-width: 500px){
+    .container{
+        p{
+            font-size: .6rem;
+        }
+    }
+};

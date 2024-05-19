@@ -7,6 +7,7 @@ import { LanguageContext } from '../../contexts';
 import personalInfos from '../../data/personalInfos';
 import personalSkills from '../../data/skillsInfo';
 import Skills from '../Skills';
+import { InfoDiv } from '../InfoDiv';
 
 
 export default function Aside() {
@@ -24,6 +25,7 @@ export default function Aside() {
             <h2 className={styles.name}>{infoJson.name}</h2>
             <h5 className={styles.age} >{infoJson.age}</h5>
             <p className={styles.addres}>{infoJson.city} <br /> {infoJson.state} - {infoJson.country} </p>
+            <InfoDiv />
             <Separator />
             <Skills {...infoSkill} />
         </aside>
