@@ -13,7 +13,7 @@
         .box__title{
             font-size: 1.3rem;
             font-weight: 700;
-            color: $principalBgColor;
+            color: $principalColor;
         }
     }
     
@@ -35,7 +35,7 @@
         }
 
         &::-webkit-scrollbar-thumb {
-        background: $principalBgColor; /* cor do indicador de rolagem */
+        background: $principalColor; /* cor do indicador de rolagem */
         border-radius: $border-radius; /* borda arredondada do indicador */
         }
 

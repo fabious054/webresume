@@ -39,8 +39,8 @@
     }
 
     .details{
-        background-color: $principalBgColor;
-        border-color: $principalBgColor ;
+        background-color: $principalColor;
+        border-color: $principalColor ;
         color: $principalTitlesColor;
         width: 100%;
         padding-top: .2rem;
@@ -51,7 +51,7 @@
     }
 
     button{
-        color: $principalBgColor;
+        color: $principalColor;
         background-color: $principalTextColor;
         width: 100%;
         padding-top: .2rem;
