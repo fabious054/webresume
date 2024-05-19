@@ -1,6 +1,3 @@
-
-import photo from '../../assets/img/my-photo.png';
-
 export default function PersonalInfos(langague: string) {
     const json = {
         'pt-br': {
@@ -8,14 +5,16 @@ export default function PersonalInfos(langague: string) {
             age: '24 anos',
             city: 'Caxias do Sul',
             state: 'Rio Grande do Sul - Brasil',
-            country: 'Brasil'
+            country: 'Brasil',
+            startYear: 2022
         },
         'en': {
             name: 'Fabio Abreu',
             age: '24 years old',
             city: 'Caxias do Sul',
             state: 'Rio Grande do Sul - Brazil',
-            country: 'Brazil'
+            country: 'Brazil',
+            startYear: 2022
         }
     };
 

@@ -25,7 +25,8 @@ export default function Aside() {
             <h2 className={styles.name}>{infoJson.name}</h2>
             <h5 className={styles.age} >{infoJson.age}</h5>
             <p className={styles.addres}>{infoJson.city} <br /> {infoJson.state} - {infoJson.country} </p>
-            <InfoDiv />
+            <InfoDiv type={'hours'} />
+            <InfoDiv type={'experience'} />
             <Separator />
             <Skills {...infoSkill} />
         </aside>
