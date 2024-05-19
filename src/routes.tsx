@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 
 import { Home } from './pages/home';
@@ -8,18 +9,18 @@ import ButtonSetLanguage from './components/ButtonSetLanguage';
 import ContentPage from './pages/contentPage';
 import NotFound from './pages/NotFound';
 import Certificate from './pages/Certificate';
+import Admin from './pages/Admin';
 
 export default function AppRoutes() {
     return (
         <Router>
-            <Aside />
-            <ButtonSetLanguage />
             <Routes>
                 <Route path="/" element={<ContentPage />}>
                     <Route index element={<Home />} />
                     <Route path='certificate/:id'  element={<Certificate />} />
                 </Route>
-            <Route path="*" element={<NotFound />} />
+                <Route path="/admin" element={<Admin />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>
     );
