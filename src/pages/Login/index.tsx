@@ -7,7 +7,7 @@ export default function Login() {
     const logado = useContext(LogadoContext);
     const [user, setUser] = useState({email: '', password: ''});
 
-    console.log(process.env.USER);
+    console.log(process.env.REACT_APP_USER);
     
     
     return (
