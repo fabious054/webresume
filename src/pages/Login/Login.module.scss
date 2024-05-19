@@ -1,0 +1,84 @@
+@import "../../styles/variables.scss";
+
+//amimation vibrar
+@keyframes vibrar {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../../assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  .content{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 1.5rem;
+    border-radius: $border-radius;
+    background-color: $backgroundGeneral;
+
+    .error{
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 0.5rem;
+        border-radius: $border-radius;
+        margin-bottom: 1rem;
+        animation: vibrar 0.5s linear ;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-weight: 700;
+
+    }
+    input{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: $border-radius;
+        border:none;
+        margin-bottom: 1rem;
+    }
+
+    button{
+        width: 100%;
+        background-color: $principalColor;
+        padding: 0.5rem;
+        border-radius: $border-radius;
+        border:none;
+        color: $principalTextColor;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover{
+            background-color: $secondaryColor;
+        }
+    }
+  }
+}
+
+@media (max-width: 600px){
+    .container{
+        .content{
+            width: 60%;
+        }
+    }
+}
