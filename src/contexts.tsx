@@ -17,3 +17,20 @@ export function LanguageProvider({ children }:{children: React.ReactNode}) {
     );
 }
 
+type LogadoContextType = {  
+    logado: boolean;
+    setLogado: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+export const LogadoContext = createContext<LogadoContextType | undefined>(undefined);
+
+export function LogadoProvider({ children }:{children: React.ReactNode}) {
+    const [logado, setLogado] = useState(false);
+
+    return (
+        <LogadoContext.Provider value={{ logado, setLogado }}>
+            {children}
+        </LogadoContext.Provider>
+    );
+}
+

@@ -10,6 +10,8 @@ import ContentPage from './pages/contentPage';
 import NotFound from './pages/NotFound';
 import Certificate from './pages/Certificate';
 import Admin from './pages/Admin';
+import Login from './pages/Login';
+
 
 export default function AppRoutes() {
     return (
@@ -20,6 +22,7 @@ export default function AppRoutes() {
                     <Route path='certificate/:id'  element={<Certificate />} />
                 </Route>
                 <Route path="/admin" element={<Admin />} />
+                <Route path="/login" element={<Login />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>
