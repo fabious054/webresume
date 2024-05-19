@@ -2,20 +2,30 @@
 
 .content{
     width: calc(100% - $sideBarWidthSmaller);
-    height: 100%;
+    max-height: 100vh;
     display: grid;
-    grid-template-rows: 12fr 1fr;
+    grid-template-rows: auto auto;
+    padding-inline: 2rem;
+    padding-top: 2rem;
+}
+@media (max-width: 1100px){
+    .content{
+        padding-top: 1rem;
+    }
+
 }
 
-@media (max-width: 800px){
+@media (max-width: 850px){
     .content{
         width: 100%;
         display: flex;
         flex-direction: column;
+        padding-inline: 0rem;
+        padding-top: 0rem;
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .content{
         width: 100%;
         display: flex;

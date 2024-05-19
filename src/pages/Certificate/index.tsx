@@ -27,7 +27,7 @@ export default function Certificate() {
     return(
         <div className={styles.container}>
             <div className={styles.header}>
-                <button onClick={() => navigate(-1)}>
+                <button onClick={() => navigate('/')}>
                     <i className="bi bi-arrow-left-circle"></i> {language === 'pt-br' ? 'Voltar' : 'Back'}
                 </button>
             </div>
@@ -38,6 +38,7 @@ export default function Certificate() {
                 <div className={styles.certificate__info_box}>
                     <div className={styles.certificate__info_box__content}>
                         <div className={styles.description}>
+                            <h2>{certificate?.title}</h2>
                             <span>{certificate?.description}</span>
                         </div>
                         <div className={styles.tags}>
@@ -47,9 +48,9 @@ export default function Certificate() {
                         </div>
                     </div>
                 </div>
-                <div className={styles.certificate__title_box}>
+                {/* <div className={styles.certificate__title_box}>
                     <h2>{certificate?.title}</h2>
-                </div>
+                </div> */}
             </div>
             
         </div>

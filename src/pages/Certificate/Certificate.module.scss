@@ -2,6 +2,10 @@
 
 
 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
     .header{
         display: flex;
         justify-content: space-between;
@@ -19,21 +23,25 @@
         
         }
     }
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
 
     .content_box{
         width: 100%;
         display: grid;
-        grid-template-columns: 2fr .7fr;
+        grid-template-columns: 1fr .5fr;
         grid-template-rows: 1fr auto;
+        gap: 0rem;
         
 
         .certificate__img_box{
+            border: 1px solid $secondaryColor;
+            border-right: none;
             border-top-left-radius: 1rem;
+            border-bottom-left-radius: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             img{
+                border-bottom-left-radius: 1rem;
                 width: 100%;
                 border-top-left-radius: 1rem;
             }
@@ -43,8 +51,9 @@
             padding-inline: 1rem;
             padding-top: 1rem;
             border-top-right-radius: 1rem;
-            border: 1px solid $principalBgColor;
-            border-bottom: none;
+            border-bottom-right-radius: 1rem;
+            border: 1px solid $secondaryColor;
+            border-left: none;
             background-color: $principalTitlesColor;
 
             .certificate__info_box__content{
@@ -54,8 +63,15 @@
                 height: 100%;
 
                 .description{
+                    h2{
+                        text-align: center;
+                        font-size: 1.1rem;
+                        margin-bottom: .5rem;
+                        font-weight: 700;
+                    }
                     span{
                         font-size: .8rem;
+                        font-weight: 400;
                     }
                 }
 
@@ -66,20 +82,20 @@
             }
         }
 
-        .certificate__title_box{
-            grid-column: span 2;
-            background-color: $principalBgColor;
-            color: $principalTitlesColor;
-            text-align: center;
-            padding: .5rem;
-            border-bottom-left-radius: 1rem;
-            border-bottom-right-radius: 1rem;
+        // .certificate__title_box{
+        //     grid-column: span 2;
+        //     // background-color: $principalBgColor;
+        //     color: $principalBgColor;
+        //     text-align: center;
+        //     padding: .5rem;
+        //     border-bottom-left-radius: 1rem;
+        //     border-bottom-right-radius: 1rem;
             
-            h2{
-                padding: 0px;
-                margin: 0px;
-            }
-        }
+        //     h2{
+        //         padding: 0px;
+        //         margin: 0px;
+        //     }
+        // }
     }
 
 }
@@ -91,15 +107,11 @@
             }
         }
         .content_box{
-            grid-template-columns: 2fr 1fr ;
-            grid-template-rows: 1fr auto;
+            
             .certificate__info_box{
                 padding-inline: 1rem;
                 padding-top: 1rem;
                 border-top-right-radius: 1rem;
-                border: 1px solid $principalBgColor;
-                border-bottom: none;
-                background-color: $principalTitlesColor;
                 .certificate__info_box__content{
                     .description{
                         span{
@@ -125,64 +137,70 @@
     }
 
 }
+
 @media (max-width: 1100px){
     .container{
+        width: 80%;
+        margin: auto;
         .content_box{
             grid-template-columns: 1fr ;
             grid-template-rows: 1fr auto;
+            .certificate__img_box{
+                border-bottom-left-radius: 0rem;
+                border-top-right-radius: 1rem;
+                border-right: 1px solid $secondaryColor;
+                border-bottom: 0px;
+                img{
+                    border-top-right-radius: 1rem;
+                    border-bottom-left-radius: 0rem;
+                }
+            }
             .certificate__info_box{
-                grid-column: span 2;
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-                padding-inline: 3rem;
-                border-top: none;
-                border-bottom: 1px solid $principalBgColor;
+                grid-column: span 1;
+                padding-top: 0rem;
+                padding-bottom: 0rem;
+                padding-inline: 1rem;
+                border-top: none !important;
+
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+                border: 1px solid $secondaryColor;
+
+
                 .certificate__info_box__content{
                     .description{
+                        h2{
+                            font-size: 1rem;
+                            font-weight: 700;
+                        }
                         span{
-                            font-size: .9rem;
+                            font-size: .65rem;
                         }
                     }
                 }
-            }
-            .certificate__title_box{
-                grid-row: 2;
-                border-bottom-left-radius: 0rem;
-                border-bottom-right-radius: 0rem;
-                h2{
-                    font-size: 1rem;
-                }
-            }
+            } 
         }
     }
 }
 
-
-
 @media (max-width: 800px){
     .container{
+        margin-bottom: .9rem;
+        padding-top: .9rem;
         .content_box{
             grid-template-columns: 1fr ;
             grid-template-rows: 1fr auto;
             .certificate__info_box{
-                grid-column: span 2;
-                padding-top: 1rem;
-                padding-inline: 3rem;
-                border-top-right-radius: 0px;
-                border-top: none;
-                border: 1px solid $principalBgColor;
                 .certificate__info_box__content{
                     .description{
                         span{
-                            font-size: 1.4rem;
+                            font-size: .8rem;
+                            font-weight: 400;
                         }
                     }
                 }
-            }
-            .certificate__title_box{
-                grid-row: 2;
-                border-bottom-left-radius: 0rem;
-                border-bottom-right-radius: 0rem;
             }
         }
     }
@@ -198,25 +216,15 @@
         }
         .content_box{
             .certificate__info_box{
-                grid-column: span 2;
-                padding-top: 1rem;
-                padding-bottom: 1rem;
-                padding-inline: 3rem;
-                border-top: none;
                 .certificate__info_box__content{
                     .description{
                         span{
-                            font-size: .9rem;
+                            font-size: .7rem;
+                        }
+                        h2{
+                            font-size: .85rem;
                         }
                     }
-                }
-            }
-            .certificate__title_box{
-                grid-row: 2;
-                border-bottom-left-radius: 0rem;
-                border-bottom-right-radius: 0rem;
-                h2{
-                    font-size: 1rem;
                 }
             }
         }

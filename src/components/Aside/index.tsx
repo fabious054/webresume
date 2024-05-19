@@ -21,7 +21,8 @@ export default function Aside() {
             <div className={styles.photo__box}>
                 <img src={photo} alt="" />
             </div>
-            <h2 className={styles.name}>{infoJson.name} - {infoJson.age}</h2>
+            <h2 className={styles.name}>{infoJson.name}</h2>
+            <h5 className={styles.age} >{infoJson.age}</h5>
             <p className={styles.addres}>{infoJson.city} <br /> {infoJson.state} - {infoJson.country} </p>
             <Separator />
             <Skills {...infoSkill} />

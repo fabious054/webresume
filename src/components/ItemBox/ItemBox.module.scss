@@ -63,12 +63,12 @@
         };
         .box__content{
             grid-template-columns: repeat(2, 2fr);
-            max-height: 80vh;
+            // max-height: 80vh;
         }
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
     .box{
         .box__content{
             gap: 1rem;
@@ -76,7 +76,7 @@
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .box{
         .box__title{
             text-align: center;
