@@ -29,6 +29,9 @@ export default function Icons(tagName:string) {
         REACT_ROUTER : 'https://i.ibb.co/RhjfZNx/ROUTER.jpg',
         GITHUB : 'https://i.ibb.co/1M8tssc/GITHUB.png',
         API : 'https://i.ibb.co/3Twt1j6/API.png',
+        NODE : 'https://i.ibb.co/5LNnyZ8/node.png',
+        EXPRESS : 'https://i.ibb.co/JcFBpp7/express.png',
+        MONGODB : 'https://i.ibb.co/M2jr79K/mongo.png',
     };
 
     tagName = tagName.replace(' ','');

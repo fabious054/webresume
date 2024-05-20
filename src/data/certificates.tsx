@@ -212,6 +212,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['REACT', 'STYLED-COMPONENTS','REACT-HOOKS ','CSS', 'HTML']
                 },
+                {
+                    id: 24,
+                    title: 'Node.js: criando uma API Rest com Express e MongoDB',
+                    description: 'Aprenda a criar uma API do zero, seguindo o estilo arquitetural REST. Entenda como as requisições HTTP funcionam. Conheça o framework Express, utilizado para desenvolver aplicações robustas e escaláveis. Conecte sua API com um banco de dados MongoDB. Crie buscas por campos específicos na API.',
+                    image: 'https://i.ibb.co/R9PGnqL/curso-nodejs-criando-uma-API-Rest-com-Express-e-Mongo-DB-1.png"',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['NODE', 'EXPRESS', 'MONGODB']
+                },
             ]
         },
         'en': {
@@ -423,6 +432,15 @@ export default function Certificates(langague: string) {
                     hours: 10,
                     hoursTxt: '10 Horas',
                     tags: ['REACT', 'STYLED-COMPONENTS','REACT-HOOKS ','CSS', 'HTML']
+                },
+                {
+                    id: 24,
+                    title: 'Creating a RESTful API with Express and MongoDB in Node.js.',
+                    description: 'Learn to create an API from scratch, following the REST architectural style. Understand how HTTP requests work. Get to know the Express framework, used to develop robust and scalable applications. Connect your API with a MongoDB database. Create searches for specific fields in the API.',
+                    image: 'https://i.ibb.co/Bq9ZLBh/curso-nodejs-criando-uma-API-Rest-com-Express-e-Mongo-DB-eng-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['NODE', 'EXPRESS', 'MONGODB']
                 },
             ]
         }

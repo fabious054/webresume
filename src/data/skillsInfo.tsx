@@ -13,6 +13,7 @@ export default function PersonalSkills(langague: string) {
                 {name: 'PHP',stars: 4},
                 {name: 'MySql',stars: 4},
                 {name: 'C C++',stars: 3},
+                {name: 'Node',stars: 3},
             ]
 
         },
@@ -28,6 +29,7 @@ export default function PersonalSkills(langague: string) {
                 {name: 'PHP',stars: 4},
                 {name: 'MySql',stars: 4},
                 {name: 'C C++',stars: 3},
+                {name: 'Node',stars: 3},
             ] 
         }
     };

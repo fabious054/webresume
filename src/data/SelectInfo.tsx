@@ -21,6 +21,7 @@ export default function SelectInfo() {
         { id: 18,value: 'CSS', title: 'CSS' },
         { id: 19,value: 'SCSS', title: 'SCSS' },
         { id: 20,value: 'BOOTSTRAP', title: 'BOOTSTRAP' },
+        { id: 21,value: 'NODE', title: 'NODE' },
     ];
 
     //order by title
