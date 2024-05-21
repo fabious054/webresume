@@ -221,6 +221,51 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['NODE', 'EXPRESS', 'MONGODB']
                 },
+                {
+                    id: 25,
+                    title: 'Lógica de programação: praticando com desafios',
+                    description: 'Melhore suas habilidades em programação com desafios práticos de lógica. Utilize seus conhecimentos para implementar soluções eficazes e reforçar sua compreensão. Desenvolva projetos que enriquecem seu portfólio e destacam suas capacidades técnicas. Comece agora e eleve seu nível em programação!',
+                    image: 'https://i.ibb.co/xMyX6d7/curso-L-gica-de-programa-o-praticando-com-desafios.jpg',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['LOGICA', 'JAVASCRIPT']
+                },
+                {
+                    id: 26,
+                    title: 'React Native: utilizando o Context API nas suas aplicações',
+                    description: 'Conheça a importância do Context API e como utilizá-lo para organizar suas aplicações. Aprenda a construir grandes aplicações de forma organizada com estados globais. Implemente a mudança de tema em um app e crie um sistema simples de autenticação. Desenvolva telas de carrinho e últimos produtos vistos em um app de e-commerce. Aplique a persistência de dados através de uma Web API para uma experiência completa.',
+                    image: 'https://i.ibb.co/bHfrLfV/curso-React-Native-utilizando-o-Context-API-nas-suas-aplica-es.jpg',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['REACT-NATIVE','REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
+                },
+                {
+                    id: 27,
+                    title: 'React Native: utilizando Web API',
+                    description: 'Compreenda o que são Web API e fake API e qual sua utilidade no desenvolvimento mobile. Utilize uma Web API para receber, exibir, salvar, editar e apagar informações de um app. Aprenda a conectar um aplicativo ao armazenamento online com o React Native. Descubra as principais opções para fazer requisições. Instale e utilize a biblioteca Axios para fazer requisições. Teste requisições com o software Insomnia. Implemente as requisições GET, POST, PUT e DELETE em um projeto real.',
+                    image: 'https://i.ibb.co/y4MVDZT/curso-React-Native-utilizando-Web-API.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['REACT-NATIVE','REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS','API']
+                },
+                {
+                    id: 28,
+                    title: 'Redes Neurais: Deep Learning com PyTorch',
+                    description: 'Entenda os elementos que compõem uma Rede Neural tradicional. Experimente o framework PyTorch para Deep Learning. Implemente operações com a estrutura de dados Tensor. Aprenda o funcionamento e as limitações de um Perceptron. Implemente uma arquitetura de Rede Neural com múltiplas camadas de Perceptron.',
+                    image: 'https://i.ibb.co/Z131p7H/curso-Redes-Neurais-Deep-Learning-com-Py-Torch.png',
+                    hours: 6,
+                    hoursTxt: '6 Horas',
+                    tags: ['PYTORCH','PYTHON','DEEP-LEARNING']
+                },
+                {
+                    id: 29,
+                    title: 'Treinando uma Rede Neural: Deep Learning com PyTorch',
+                    description: 'Experimente o framework PyTorch para Deep Learning e implemente o fluxo de treinamento e validação de uma Rede Neural. Entenda o papel dos hiperparâmetros no treinamento de uma Rede Neural e aprenda a carregar datasets customizados com PyTorch, bem como a carregar datasets do pacote Torchvision. Além disso, conheça os otimizadores mais usados no treinamento de Redes Neurais.',
+                    image: 'https://i.ibb.co/8btGMR0/curso-Treinando-uma-Rede-Neural-Deep-Learning-com-Py-Torch.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['PYTORCH','PYTHON','DEEP-LEARNING']
+                },
             ]
         },
         'en': {
@@ -442,13 +487,62 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['NODE', 'EXPRESS', 'MONGODB']
                 },
+                {
+                    id: 25,
+                    title: 'Programming Logic: Practicing with Challenges',
+                    description: 'Improve your programming skills with practical logic challenges. Use your knowledge to implement effective solutions and reinforce your understanding. Develop projects that enrich your portfolio and showcase your technical abilities. Start now and take your programming to the next level!',
+                    image: 'https://i.ibb.co/znPnrCL/curso-L-gica-de-programa-o-praticando-com-desafios-eng.jpg',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['LOGICA', 'JAVASCRIPT']
+                },
+                {
+                    id: 26,
+                    title: 'React Native: Using the Context API in Your Applications',
+                    description: 'Discover the importance of Context API and how to use it to organize your applications. Learn to build large applications in an organized manner with global states. Implement theme switching in an app and create a simple authentication system. Develop cart and recently viewed products screens in an e-commerce app. Apply data persistence through a Web API for a complete experience',
+                    image: 'https://i.ibb.co/7yHTBGB/curso-React-Native-utilizando-o-Context-API-nas-suas-aplica-es-eng.jpg',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['REACT-NATIVE','REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS']
+                },
+                {
+                    id: 27,
+                    title: 'React Native: Using Web API',
+                    description: 'Understand what Web APIs and fake APIs are and their utility in mobile development. Use a Web API to receive, display, save, edit, and delete information from an app. Learn to connect an application to online storage with React Native. Discover the main options for making requests. Install and use the Axios library to make requests. Test requests with the Insomnia software. Implement GET, POST, PUT, and DELETE requests in a real project.',
+                    image: 'https://i.ibb.co/z6KDnKT/curso-React-Native-utilizando-Web-API-eng.jpg',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['REACT-NATIVE','REACT-HOOKS','CSS', 'HTML','STYLED-COMPONENTS','API']
+                },
+                {
+                    id: 28,
+                    title: 'Neural Networks: Deep Learning with PyTorch',
+                    description: 'Understand the elements that make up a traditional Neural Network. Experience the PyTorch framework for Deep Learning. Implement operations with the Tensor data structure. Learn the workings and limitations of a Perceptron. Implement a Neural Network architecture with multiple layers of Perceptrons.',
+                    image: 'https://i.ibb.co/GVYRc7w/curso-Redes-Neurais-Deep-Learning-com-Py-Torch-eng.png',
+                    hours: 6,
+                    hoursTxt: '6 Horas',
+                    tags: ['PYTORCH','PYTHON','DEEP-LEARNING']
+                },
+                {
+                    id: 29,
+                    title: 'DEPLOYING ON AMAZON EC2: HIGH AVAILABILITY AND SCALABILITY OF AN APPLICATION',
+                    description: 'Experience the PyTorch framework for Deep Learning and implement the training and validation flow of a Neural Network. Understand the role of hyperparameters in Neural Network training and learn how to load custom datasets with PyTorch, as well as datasets from the Torchvision package. Additionally, get to know the most commonly used optimizers in Neural Network training.',
+                    image: 'https://i.ibb.co/60kcszL/curso-Treinando-uma-Rede-Neural-Deep-Learning-com-Py-Torch-eng.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['PYTORCH','PYTHON','DEEP-LEARNING']
+                },
             ]
         }
     };
 
         if (langague == 'en') {
+            //ordenar por ordem alfabética do title
+            json['en'].certificates.sort((a, b) => a.title.localeCompare(b.title));
             return json['en'];
         }
+
+        json['pt-br'].certificates.sort((a, b) => a.title.localeCompare(b.title));
         return json['pt-br'];
 };
 

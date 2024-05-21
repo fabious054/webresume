@@ -9,7 +9,7 @@ export default function SelectInfo() {
         { id: 6,value: 'JAVASCRIPT', title: 'JAVASCRIPT' },
         { id: 7,value: 'REACT', title: 'REACT' },
         { id: 8,value: 'TYPESCRIPT', title: 'TYPESCRIPT' },
-        { id: 9,value: 'REACT_NATIVE', title: 'REACT-NATIVE' },
+        { id: 9,value: 'REACT-NATIVE', title: 'REACT-NATIVE' },
         { id: 10,value: 'MYSQL', title: 'MYSQL' },
         { id: 11,value: 'SQLALCHEMY', title: 'SQLALCHEMY' },
         { id: 12,value: 'PYTEST', title: 'PYTEST' },

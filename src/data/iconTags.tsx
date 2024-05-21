@@ -32,8 +32,11 @@ export default function Icons(tagName:string) {
         NODE : 'https://i.ibb.co/5LNnyZ8/node.png',
         EXPRESS : 'https://i.ibb.co/JcFBpp7/express.png',
         MONGODB : 'https://i.ibb.co/M2jr79K/mongo.png',
-    };
+        DEEP_LEARNING : 'https://i.ibb.co/qYNb0rF/DEEP-LEARNING.png',
+        PYTORCH : 'https://i.ibb.co/Prm4CrS/pytorch.png',
 
+    };
+    
     tagName = tagName.replace(' ','');
 
     if (tagName === 'REACT-NATIVE') {
@@ -50,6 +53,9 @@ export default function Icons(tagName:string) {
     }
     if (tagName === 'STYLED-COMPONENTS') {
         tagName = 'STYLED_COMPONENTS';
+    }
+    if (tagName === 'DEEP-LEARNING') {
+        tagName = 'DEEP_LEARNING';
     }
 
 

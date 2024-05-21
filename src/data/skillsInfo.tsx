@@ -9,11 +9,12 @@ export default function PersonalSkills(langague: string) {
                 {name: 'JavaScript Jquery',stars: 4},
                 {name: 'React.js',stars: 4},
                 {name: 'React-Native',stars: 4},
-                {name: 'Python',stars: 4},
+                {name: 'Python',stars: 3},
                 {name: 'PHP',stars: 4},
-                {name: 'MySql',stars: 4},
+                {name: 'MySql',stars: 3},
                 {name: 'C C++',stars: 3},
                 {name: 'Node',stars: 3},
+                {name: 'MongoDB',stars: 3},
             ]
 
         },
@@ -25,17 +26,20 @@ export default function PersonalSkills(langague: string) {
                 {name: 'JavaScript Jquery',stars: 4},
                 {name: 'React.js',stars: 4},
                 {name: 'React-Native',stars: 4},
-                {name: 'Python',stars: 4},
+                {name: 'Python',stars: 3},
                 {name: 'PHP',stars: 4},
-                {name: 'MySql',stars: 4},
+                {name: 'MySql',stars: 3},
                 {name: 'C C++',stars: 3},
                 {name: 'Node',stars: 3},
+                {name: 'MongoDB',stars: 3},
             ] 
         }
     };
 
         if (langague == 'en') {
+            json['en'].skills.sort((a,b) => b.stars - a.stars);
             return json['en'];
         }
+        json['pt-br'].skills.sort((a,b) => b.stars - a.stars);
         return json['pt-br'];
 };
