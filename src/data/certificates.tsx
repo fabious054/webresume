@@ -219,7 +219,7 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/R9PGnqL/curso-nodejs-criando-uma-API-Rest-com-Express-e-Mongo-DB-1.png"',
                     hours: 10,
                     hoursTxt: '10 Horas',
-                    tags: ['NODE', 'EXPRESS', 'MONGODB']
+                    tags: ['NODE', 'EXPRESS', 'MONGODB','API']
                 },
                 {
                     id: 25,
@@ -265,6 +265,15 @@ export default function Certificates(langague: string) {
                     hours: 8,
                     hoursTxt: '8 Horas',
                     tags: ['PYTORCH','PYTHON','DEEP-LEARNING']
+                },
+                {
+                    id: 30,
+                    title: 'Node.js: lidando com buscas, filtros, paginação e erros em uma API',
+                    description: 'Aprender a tratar erros de uma API de forma elegante é essencial para melhorar a experiência do usuário e facilitar a manutenção. Usar validações do Mongoose assegura dados consistentes no MongoDB. Avançar em buscas e filtros com operadores do MongoDB permite consultas complexas e precisas. Implementar paginação e reutilizá-la em diferentes rotas melhora o desempenho e a usabilidade da API. Compreender middlewares do Express ajuda a criar uma API modular e organizada, facilitando tarefas como autenticação e tratamento de erros. Essas práticas são cruciais para desenvolver APIs robustas e eficientes.',
+                    image: 'https://i.ibb.co/Br41MCL/curso-node-js-lidando-com-buscas-filtros-pagina-o-e-erros-em-uma-API.png" alt="curso-node-js-lidando-com-buscas-filtros-pagina-o-e-erros-em-uma-API',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['NODE', 'EXPRESS', 'MONGODB','API']
                 },
             ]
         },
@@ -531,6 +540,15 @@ export default function Certificates(langague: string) {
                     hours: 8,
                     hoursTxt: '8 Horas',
                     tags: ['PYTORCH','PYTHON','DEEP-LEARNING']
+                },
+                {
+                    id: 30,
+                    title: 'Node.js: Handling queries, filters, pagination and errors in an API',
+                    description: `Learning to handle API errors elegantly is essential for enhancing user experience and easing maintenance. Using Mongoose validations ensures consistent data in MongoDB. Advancing searches and filters with MongoDB operators allows for complex and precise queries. Implementing pagination and reusing it across different routes improves the API's performance and usability. Understanding Express middlewares helps create a modular and organized API, facilitating tasks such as authentication and error handling. These practices are crucial for developing robust and efficient APIs.`,
+                    image: 'https://i.ibb.co/4RKxPpJ/curso-node-js-lidando-com-buscas-filtros-pagina-o-e-erros-em-uma-API-eng.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['NODE', 'EXPRESS', 'MONGODB','API']
                 },
             ]
         }
