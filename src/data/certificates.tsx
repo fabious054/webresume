@@ -275,6 +275,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['NODE', 'EXPRESS', 'MONGODB','API']
                 },
+                {
+                    id: 31,
+                    title: 'REACT: DESENVOLVENDO COM JAVASCRIPT',
+                    description: `Crie um projeto React do zero usando o Create React App. Entenda conceitos fundamentais do React, como Componentização, Props e State. Evite sobreposições de CSS com CSS Modules. Aprenda sobre os hooks useState e useEffect e compreenda como eles eram utilizados em class components. Mantenha seu código limpo e documentado seguindo as práticas mais atuais de escrita em React. Desenvolva seu código com conceitos de boas práticas, como DRY (Don't repeat yourself) e SRP (Single Responsibility Principle).`,
+                    image: 'https://i.ibb.co/C5dGZfk/react-ptbr-1.png',
+                    hours: 14,
+                    hoursTxt: '14 Horas',
+                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
+                },
             ]
         },
         'en': {
@@ -549,6 +558,15 @@ export default function Certificates(langague: string) {
                     hours: 10,
                     hoursTxt: '10 Horas',
                     tags: ['NODE', 'EXPRESS', 'MONGODB','API']
+                },
+                {
+                    id: 31,
+                    title: 'REACT: DEVELOPING WITH JAVASCRIPT',
+                    description: `Create a React project from scratch using Create React App. Understand fundamental React concepts such as Componentization, Props, and State. Avoid CSS class name collisions by using CSS Modules. Learn about the useState and useEffect hooks and understand how they were used in class components. Keep your code clean and documented by following the most up-to-date React coding practices. Develop your code using best practices like DRY (Don't Repeat Yourself) and SRP (Single Responsibility Principle).`,
+                    image: 'https://i.ibb.co/myXX5Zq/react-ing-1.png' ,
+                    hours: 14,
+                    hoursTxt: '14 Horas',
+                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
                 },
             ]
         }
