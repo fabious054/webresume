@@ -4,17 +4,17 @@ export default function PersonalInfos(langague: string) {
             name: 'Fabio Abreu',
             age: '24 anos',
             city: 'Caxias do Sul',
-            state: 'Rio Grande do Sul - Brasil',
+            state: 'Rio Grande do Sul',
             country: 'Brasil',
-            startYear: 2022
+            startYear: 2021
         },
         'en': {
             name: 'Fabio Abreu',
             age: '24 years old',
             city: 'Caxias do Sul',
-            state: 'Rio Grande do Sul - Brazil',
+            state: 'Rio Grande do Sul',
             country: 'Brazil',
-            startYear: 2022
+            startYear: 2021
         }
     };
 
@@ -25,7 +25,7 @@ export default function PersonalInfos(langague: string) {
 };
 
 export function experienceYears() {
-    const startYear = 2022;
+    const startYear = 2021;
     const currentYear = new Date().getFullYear();
     return currentYear - startYear;
 }
