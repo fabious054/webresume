@@ -291,7 +291,16 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/xgrgSxh/Fabio-Henrique-De-Abreu-Curso-React-como-os-componentes-funcionam-Alura-1.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
+                    tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
+                },
+                {
+                    id: 33,
+                    title: 'REACT: DESENVOLVENDO EM REACT ROUTER COM JAVASCRIPT',
+                    description: `Domine o react-router-dom e aprenda a criar Single Page Applications (SPA) eficientes. Descubra como utilizar rotas aninhadas e dinâmicas para resolver problemas comuns de navegação. Explore os principais hooks, como useLocation e useParams, para aprimorar suas aplicações React.`,
+                    image: 'https://i.ibb.co/hLTwjTd/router-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
                 },
             ]
         },
@@ -584,7 +593,16 @@ export default function Certificates(langague: string) {
                     image: 'https://i.ibb.co/qBwD83C/Fabio-Henrique-De-Abreu-Curso-React-como-os-componentes-funcionam-Alura-ing-1.png' ,
                     hours: 8,
                     hoursTxt: '8 Horas',
-                    tags: ['REACT', 'TYPESCRIPT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
+                    tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
+                },
+                {
+                    id: 33,
+                    title: 'REACT: DEVELOPING IN REACT ROUTER WITH JAVASCRIPT',
+                    description: `Master react-router-dom and learn to build efficient Single Page Applications (SPA). Discover how to use nested and dynamic routes to solve common navigation challenges. Explore key hooks like useLocation and useParams to enhance your React applications.`,
+                    image: 'https://i.ibb.co/kJfc3Sm/router-ing-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
                 },
             ]
         }
