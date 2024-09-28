@@ -302,6 +302,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '8 Horas',
                     tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
                 },
+                {
+                    id: 34,
+                    title: 'React: gerencie estados globalmente com Context API',
+                    description: `Neste curso, você aprenderá a identificar os principais conceitos da Context API no React e compreenderá sua importância para o desenvolvimento de aplicações mais organizadas e escaláveis. Você descobrirá como aplicar a Context API para evitar o 'prop drilling', simplificando o compartilhamento de dados entre componentes. Vamos explorar a criação de contextos personalizados, permitindo o gerenciamento eficiente de estados globais, como temas e tokens de acesso. Você também aprenderá a depurar e solucionar problemas relacionados à Context API utilizando ferramentas como o React Context DevTools. Além disso, combinaremos a Context API com o hook useReducer para gerenciar estados complexos de maneira eficiente.`,
+                    image: 'https://i.ibb.co/R4pVkGW/Fabio-Henrique-De-Abreu-Curso-React-gerencie-estados-globalmente-com-Context-API-Alura-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
+                },
             ]
         },
         'en': {
@@ -600,6 +609,15 @@ export default function Certificates(langague: string) {
                     title: 'REACT: DEVELOPING IN REACT ROUTER WITH JAVASCRIPT',
                     description: `Master react-router-dom and learn to build efficient Single Page Applications (SPA). Discover how to use nested and dynamic routes to solve common navigation challenges. Explore key hooks like useLocation and useParams to enhance your React applications.`,
                     image: 'https://i.ibb.co/kJfc3Sm/router-ing-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
+                },
+                {
+                    id: 34,
+                    title: 'React: Manage state globally with Context API',
+                    description: `In this course, you will learn to identify the core concepts of Context API in React and understand its significance in developing more organized and scalable applications. You will explore how to apply the Context API to avoid 'prop drilling,' simplifying data sharing between components. We will dive into creating custom contexts, enabling efficient management of global states like themes and access tokens. You will also learn to debug and troubleshoot Context API-related issues using tools like React Context DevTools. Additionally, we will combine the Context API with the useReducer hook to manage complex states effectively.`,
+                    image: 'https://i.ibb.co/1bMs9mz/Fabio-Henrique-De-Abreu-Curso-React-gerencie-estados-globalmente-com-Context-API-Alura-ing-1.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
                     tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
