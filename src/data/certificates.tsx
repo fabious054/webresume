@@ -311,6 +311,16 @@ export default function Certificates(langague: string) {
                     hoursTxt: '8 Horas',
                     tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
                 },
+                
+                {
+                    id: 35,
+                    title: 'DevOps: explorando conceitos, comandos e scripts no Linux CLI',
+                    description: `Neste curso, explorei a importância do DevOps e aprendi a trabalhar com servidores Linux. Foi muito interessante ver como instalar um servidor web e desenvolver scripts no shell. Também consegui gerenciar e automatizar tarefas em fluxos de trabalho, além de monitorar recursos e agendar tarefas. Essas habilidades são realmente valiosas para quem deseja se destacar na área de tecnologia!`,
+                    image: 'https://i.ibb.co/ByTWcjs/Fabio-Henrique-De-Abreu-Curso-Dev-Ops-explorando-conceitos-comandos-e-scripts-no-Linux-CLI-Alura-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['LINUX', 'DEVOPS']
+                },
             ]
         },
         'en': {
@@ -621,6 +631,15 @@ export default function Certificates(langague: string) {
                     hours: 8,
                     hoursTxt: '8 Horas',
                     tags: ['REACT', 'REACT-HOOKS', 'CSS', 'HTML','STYLED-COMPONENTS']
+                },
+                {
+                    id: 35,
+                    title: 'DevOps: exploring concepts, commands and scripts in the Linux CLI',
+                    description: `In this course, I explored the importance of DevOps and learned how to work with Linux servers. It was very interesting to see how to install a web server and develop shell scripts. I was also able to manage and automate tasks in workflows, as well as monitor resources and schedule tasks. These skills are really valuable for anyone who wants to stand out in the technology field!`,
+                    image: 'https://i.ibb.co/7YQFcM9/Fabio-Henrique-De-Abreu-Course-Dev-Ops-exploring-concepts-commands-and-scripts-in-the-Linux-CLI-Alur.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['LINUX', 'DEVOPS']
                 },
             ]
         }

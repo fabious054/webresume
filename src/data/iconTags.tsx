@@ -34,6 +34,8 @@ export default function Icons(tagName:string) {
         MONGODB : 'https://i.ibb.co/M2jr79K/mongo.png',
         DEEP_LEARNING : 'https://i.ibb.co/qYNb0rF/DEEP-LEARNING.png',
         PYTORCH : 'https://i.ibb.co/Prm4CrS/pytorch.png',
+        AWS : 'https://i.ibb.co/QM5NQ3h/amazon-web-services.png',
+        DEVOPS: 'https://i.ibb.co/ncSCGYg/logo-devops.png',
 
     };
     

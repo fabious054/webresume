@@ -22,6 +22,8 @@ export default function SelectInfo() {
         { id: 19,value: 'SCSS', title: 'SCSS' },
         { id: 20,value: 'BOOTSTRAP', title: 'BOOTSTRAP' },
         { id: 21,value: 'NODE', title: 'NODE' },
+        { id: 22,value: 'AWS', title: 'AWS' },
+        { id: 23,value: 'DEVOPS', title: 'DEVOPS' },
     ];
 
     //order by title
