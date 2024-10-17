@@ -321,6 +321,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '8 Horas',
                     tags: ['LINUX', 'DEVOPS']
                 },
+                {
+                    id: 36,
+                    title: 'Amazon Lightsail: descomplicando a nuvem',
+                    description: `Este curso abordou o provisionamento simplificado de web apps e instâncias, a criação de ambientes com alta disponibilidade, o aumento de capacidade de armazenamento com discos adicionais, o uso de snapshots para criar VMs, além do gerenciamento de containers no Amazon LightSail.`,
+                    image: 'https://i.ibb.co/qn9mWCh/Fabio-Henrique-De-Abreu-Curso-Amazon-Lightsail-descomplicando-a-nuvem-Alura-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['AWS', 'DEVOPS']
+                },
             ]
         },
         'en': {
@@ -641,9 +650,19 @@ export default function Certificates(langague: string) {
                     hoursTxt: '8 Horas',
                     tags: ['LINUX', 'DEVOPS']
                 },
+                {
+                    id: 36,
+                    title: 'Amazon Lightsail: Making the Cloud Uncomplicated',
+                    description: `This course covered simplified provisioning of web applications and instances, creating highly available environments, increasing storage capacity with additional disks, using snapshots to create VMs, and managing containers in Amazon LightSail.`,
+                    image: 'https://i.ibb.co/828qf25/Fabio-Henrique-De-Abreu-Course-Amazon-Lightsail-Making-the-Cloud-Uncomplicated-Alura-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['AWS', 'DEVOPS']
+                },
             ]
         }
     };
+    
 
         if (langague == 'en') {
             //ordenar por ordem alfabética do title
