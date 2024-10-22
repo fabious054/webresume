@@ -36,8 +36,10 @@ export default function Icons(tagName:string) {
         PYTORCH : 'https://i.ibb.co/Prm4CrS/pytorch.png',
         AWS : 'https://i.ibb.co/QM5NQ3h/amazon-web-services.png',
         DEVOPS: 'https://i.ibb.co/ncSCGYg/logo-devops.png',
-
+        ANGULAR: 'https://i.ibb.co/1sHrBGx/angular.png',
     };
+    
+
     
     tagName = tagName.replace(' ','');
 

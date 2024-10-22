@@ -330,7 +330,17 @@ export default function Certificates(langague: string) {
                     hoursTxt: '8 Horas',
                     tags: ['AWS', 'DEVOPS']
                 },
+                {
+                    id: 37,
+                    title: 'Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD',
+                    description: `No curso que fiz de Angular, aprendi a usar o Angular CLI para criar projetos e gerar arquivos, o que facilitou muito o processo de desenvolvimento. Entendi como funciona a estrutura de um componente Angular e como usar property binding, interpolação, event binding e two-way data binding para a comunicação entre a interface e a lógica. Também explorei algumas das principais diretivas do Angular e aprendi a fazer navegação por rotas entre os componentes de forma dinâmica. O curso também abordou injeção de dependências, que ajuda na organização do código, e aprendi a usar o HttpClient para realizar requisições HTTP e desenvolver um CRUD completo.`,
+                    image: 'https://i.ibb.co/jW3ZYbs/Fabio-Henrique-De-Abreu-Curso-Angular-14-aplique-os-conceitos-e-desenvolva-seu-primeiro-CRUD-Alura-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['TYPESCRIPT', 'ANGULAR']
+                },
             ]
+
         },
         'en': {
             title: 'Certificates',
@@ -658,6 +668,15 @@ export default function Certificates(langague: string) {
                     hours: 8,
                     hoursTxt: '8 Horas',
                     tags: ['AWS', 'DEVOPS']
+                },
+                {
+                    id: 37,
+                    title: 'Angular 14: apply the concepts and develop your first CRUD',
+                    description: `In the Angular course I took, I learned how to use the Angular CLI to create projects and generate files, which made the development process much easier. I understood how the structure of an Angular component works and how to use property binding, interpolation, event binding and two-way data binding for communication between the interface and logic. I also explored some of Angular's main directives and learned how to navigate routes between components dynamically. The course also covered dependency injection, which helps with code organization, and I learned how to use HttpClient to make HTTP requests and develop a complete CRUD.`,
+                    image: 'https://i.ibb.co/m8VrZPj/Fabio-Henrique-De-Abreu-Course-Angular-14-apply-the-concepts-and-develop-your-first-CRUD-Alura-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['TYPESCRIPT', 'ANGULAR']
                 },
             ]
         }
