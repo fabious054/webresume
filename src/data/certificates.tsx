@@ -339,6 +339,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['TYPESCRIPT', 'ANGULAR']
                 },
+                {
+                    id: 38,
+                    title: 'Angular 14: evoluindo a aplicação',
+                    description: `Neste curso, você aprenderá a criar formulários reativos em Angular, utilizando a poderosa classe Validators para aplicar validações de maneira eficiente. Além disso, será adicionado à aplicação uma funcionalidade de busca com o uso de parâmetros na URL via HttpParams. O curso também aborda a implementação de paginação de dados e a criação de uma função de "favoritar" itens. Para aprimorar a experiência do usuário, você utilizará o serviço Router para recarregar componentes dinamicamente, tornando a navegação mais fluida e responsiva.`,
+                    image: 'https://i.ibb.co/zx3WWq5/Fabio-Henrique-De-Abreu-Curso-Angular-14-evoluindo-a-aplica-o-Alura-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['TYPESCRIPT', 'ANGULAR']
+                },
             ]
 
         },
@@ -678,11 +687,20 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['TYPESCRIPT', 'ANGULAR']
                 },
+                {
+                    id: 38,
+                    title: 'Angular 14: evolving the application',
+                    description: `In this course, you will learn how to create reactive forms in Angular, using the powerful Validators class to apply validations efficiently. Furthermore, a search functionality will be added to the application using parameters in the URL via HttpParams. The course also covers implementing data pagination and creating a "favorite" item function. To improve the user experience, you will use the Router service to dynamically reload components, making navigation more fluid and responsive.`,
+                    image: 'https://i.ibb.co/gMD5wYY/Fabio-Henrique-De-Abreu-Course-Angular-14-evolving-the-application-Alura-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['TYPESCRIPT', 'ANGULAR']
+                },
             ]
         }
     };
     
-
+    
         if (langague == 'en') {
             //ordenar por ordem alfabética do title
             json['en'].certificates.sort((a, b) => a.title.localeCompare(b.title));
