@@ -724,7 +724,7 @@ export default function Certificates(langague: string) {
                     tags: ['TYPESCRIPT', 'ANGULAR']
                 },
                 {
-                    id: 39,
+                    id: 40,
                     title: 'DevOps: working with secure traffic in web communications',
                     description: `In this course, you will learn how web communication works and explore the main HTTP methods for interacting with online resources. Furthermore, the importance of ensuring security in communication through encryption with HTTPS will be addressed. The course also offers insight into the evolution of HTTP, helping you understand how the web developed to current standards.`,
                     image: 'https://i.ibb.co/VQnD9b4/Fabio-Henrique-De-Abreu-Course-Dev-Ops-working-with-secure-traffic-in-web-communications-Alura-1.png',
