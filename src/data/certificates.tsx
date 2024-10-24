@@ -357,6 +357,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '8 Horas',
                     tags: ['TYPESCRIPT', 'ANGULAR']
                 },
+                {
+                    id: 40,
+                    title: 'DevOps: trabalhando com tráfego seguro em comunicações web',
+                    description: `Neste curso, você aprenderá como funciona a comunicação web e explorará os principais métodos HTTP para interagir com recursos online. Além disso, será abordada a importância de garantir a segurança na comunicação através de criptografia com HTTPS. O curso também oferece uma visão sobre a evolução do HTTP, ajudando a entender como a web se desenvolveu até os padrões atuais.`,
+                    image: 'https://i.ibb.co/pLWcfz7/Fabio-Henrique-De-Abreu-Curso-Dev-Ops-trabalhando-com-tr-fego-seguro-em-comunica-es-web-Alura-1.png',
+                    hours: 6,
+                    hoursTxt: '6 Horas',
+                    tags: ['HTTP']
+                },
             ]
 
         },
@@ -713,6 +722,15 @@ export default function Certificates(langague: string) {
                     hours: 8,
                     hoursTxt: '8 Horas',
                     tags: ['TYPESCRIPT', 'ANGULAR']
+                },
+                {
+                    id: 39,
+                    title: 'DevOps: working with secure traffic in web communications',
+                    description: `In this course, you will learn how web communication works and explore the main HTTP methods for interacting with online resources. Furthermore, the importance of ensuring security in communication through encryption with HTTPS will be addressed. The course also offers insight into the evolution of HTTP, helping you understand how the web developed to current standards.`,
+                    image: 'https://i.ibb.co/VQnD9b4/Fabio-Henrique-De-Abreu-Course-Dev-Ops-working-with-secure-traffic-in-web-communications-Alura-1.png',
+                    hours: 6,
+                    hoursTxt: '6 Horas',
+                    tags: ['HTTP']
                 },
             ]
         }
