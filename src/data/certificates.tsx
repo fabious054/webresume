@@ -348,6 +348,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '8 Horas',
                     tags: ['TYPESCRIPT', 'ANGULAR']
                 },
+                {
+                    id: 39,
+                    title: 'Angular: formulários orientados a templates',
+                    description: `Neste curso, você aprenderá a trabalhar com formulários orientados a template no Angular, utilizando o FormsModule e suas diretivas para construir interfaces dinâmicas. O curso aborda as validações padrão e a criação de diretivas personalizadas para validação, além de ensinar a implementar validações assíncronas com APIs, garantindo uma experiência de usuário mais robusta e eficiente.`,
+                    image: 'https://i.ibb.co/phZ5Ddr/Fabio-Henrique-De-Abreu-Curso-Angular-formul-rios-orientados-a-templates-Alura-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['TYPESCRIPT', 'ANGULAR']
+                },
             ]
 
         },
@@ -692,6 +701,15 @@ export default function Certificates(langague: string) {
                     title: 'Angular 14: evolving the application',
                     description: `In this course, you will learn how to create reactive forms in Angular, using the powerful Validators class to apply validations efficiently. Furthermore, a search functionality will be added to the application using parameters in the URL via HttpParams. The course also covers implementing data pagination and creating a "favorite" item function. To improve the user experience, you will use the Router service to dynamically reload components, making navigation more fluid and responsive.`,
                     image: 'https://i.ibb.co/gMD5wYY/Fabio-Henrique-De-Abreu-Course-Angular-14-evolving-the-application-Alura-1.png',
+                    hours: 8,
+                    hoursTxt: '8 Horas',
+                    tags: ['TYPESCRIPT', 'ANGULAR']
+                },
+                {
+                    id: 39,
+                    title: 'Angular: template-driven forms',
+                    description: `In this course, you will learn how to work with template-driven forms in Angular, using the FormsModule and its conventions to build dynamic interfaces. The course covers valid standards and the creation of custom conventions for validation, in addition to teaching how to implement asynchronous validations with APIs, ensuring a more robust and efficient user experience.`,
+                    image: 'https://i.ibb.co/gVVc6yY/Fabio-Henrique-De-Abreu-Course-Angular-template-driven-forms-Alura-1.png',
                     hours: 8,
                     hoursTxt: '8 Horas',
                     tags: ['TYPESCRIPT', 'ANGULAR']
