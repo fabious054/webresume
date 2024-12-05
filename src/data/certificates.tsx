@@ -366,6 +366,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '6 Horas',
                     tags: ['HTTP']
                 },
+                {
+                    id: 41,
+                    title: 'Data Science: explorando e analisando dados',
+                    description: `Concluí um curso prático sobre análise de dados com a biblioteca Pandas, onde aprendi a realizar filtragens, tratamentos e agrupamentos de informações de maneira eficiente. Durante o curso, desenvolvi habilidades para trabalhar com diferentes tipos de variáveis, criar visualizações informativas e extrair insights valiosos dos dados. Além disso, aprofundei meu conhecimento em medidas de tendência central e de dispersão, essenciais para interpretar padrões e variações nos conjuntos de dados analisados.`,
+                    image: 'https://i.ibb.co/6JC1d7Y/Fabio-Henrique-De-Abreu-Curso-Data-Science-explorando-e-analisando-dados-Alura-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['PYTHON']
+                },
             ]
 
         },
@@ -732,10 +741,18 @@ export default function Certificates(langague: string) {
                     hoursTxt: '6 Horas',
                     tags: ['HTTP']
                 },
+                {
+                    id: 41,
+                    title: 'Data Science: exploring and analyzing data',
+                    description: `I completed a practical course on data analysis with the Pandas library, where I learned how to efficiently filter, clean, and group information. During the course, I developed skills to work with different types of variables, create informative visualizations, and extract valuable insights from data. Additionally, I deepened my understanding of central tendency and dispersion measures, which are essential for interpreting patterns and variations in analyzed datasets.`,
+                    image: 'https://i.ibb.co/tKb6g2s/Fabio-Henrique-De-Abreu-Course-Data-Science-exploring-and-analyzing-data-Alura-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['PYTHON']
+                },
             ]
         }
     };
-    
     
         if (langague == 'en') {
             //ordenar por ordem alfabética do title
