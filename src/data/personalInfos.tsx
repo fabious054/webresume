@@ -2,7 +2,7 @@ export default function PersonalInfos(langague: string) {
     const json = {
         'pt-br': {
             name: 'Fabio Abreu',
-            age: '24 anos',
+            age: '1999/06/12',
             city: 'Caxias do Sul',
             state: 'Rio Grande do Sul',
             country: 'Brasil',
@@ -10,7 +10,7 @@ export default function PersonalInfos(langague: string) {
         },
         'en': {
             name: 'Fabio Abreu',
-            age: '24 years old',
+            age: '1999/06/12',
             city: 'Caxias do Sul',
             state: 'Rio Grande do Sul',
             country: 'Brazil',
@@ -18,7 +18,7 @@ export default function PersonalInfos(langague: string) {
         }
     };
 
-        if (langague == 'en') {
+        if (langague === 'en') {
             return json['en'];
         }
         return json['pt-br'];

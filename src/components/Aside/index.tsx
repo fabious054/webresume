@@ -16,6 +16,16 @@ export default function Aside() {
     const language = contextLangague?.language || 'pt-br';
     const infoJson = personalInfos(language);
     const infoSkill = personalSkills(language);
+
+    function calcAge(birthDate: string) {
+        const date = new Date(birthDate);
+        const diff = Date.now() - date.getTime();
+        const ageDate = new Date(diff);
+        return Math.abs(ageDate.getUTCFullYear() - 1970);
+    }
+
+    const calculatedAge = calcAge(infoJson.age).toString();
+    const stringOfAge = `${calculatedAge} ${(language === 'pt-br') ? 'anos' : 'years old'} `;
     
     return (
         <aside className={styles.aside}>
@@ -23,7 +33,7 @@ export default function Aside() {
                 <img src={photo} alt="" />
             </div>
             <h2 className={styles.name}>{infoJson.name}</h2>
-            <h5 className={styles.age} >{infoJson.age}</h5>
+            <h5 className={styles.age} >{stringOfAge}</h5>
             <p className={styles.addres}>{infoJson.city} <br /> {infoJson.state} - {infoJson.country} </p>
             <InfoDiv type={'hours'} />
             <InfoDiv type={'experience'} />
