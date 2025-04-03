@@ -24,7 +24,8 @@ export default function SelectInfo() {
         { id: 21,value: 'NODE', title: 'NODE' },
         { id: 22,value: 'AWS', title: 'AWS' },
         { id: 23,value: 'DEVOPS', title: 'DEVOPS' },
-        { id: 23,value: 'ANGULAR', title: 'ANGULAR' },
+        { id: 24,value: 'ANGULAR', title: 'ANGULAR' },
+        { id: 25,value: 'SERVERLESS', title: 'SERVERLESS' },
     ];
 
     //order by title

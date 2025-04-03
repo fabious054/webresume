@@ -375,6 +375,15 @@ export default function Certificates(langague: string) {
                     hoursTxt: '10 Horas',
                     tags: ['PYTHON']
                 },
+                {
+                    id: 42,
+                    title: 'Serverless com Node.js: aplicações eficientes na Cloud',
+                    description: `O curso de Serverless com AWS é voltado para desenvolvedores que desejam aprender a construir aplicações escaláveis sem a necessidade de gerenciar servidores. Durante as aulas, são abordados conceitos fundamentais de arquitetura serverless, uso do Serverless Framework e integração com serviços da AWS, como Lambda, API Gateway, DynamoDB e IAM. Além da teoria, o curso foca na prática, proporcionando a implementação de APIs, configuração de permissões e otimização de custos operacionais. Ideal para quem busca aprimorar suas habilidades e desenvolver soluções modernas, eficientes e altamente disponíveis na nuvem.`,
+                    image: 'https://i.ibb.co/2VvtK1g/Fabio-Henrique-De-Abreu-Curso-Serverless-com-Node-js-aplica-es-eficientes-na-Cloud-Alura-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['SERVERLESS', 'NODE', 'AWS']
+                },
             ]
 
         },
@@ -749,6 +758,15 @@ export default function Certificates(langague: string) {
                     hours: 10,
                     hoursTxt: '10 Horas',
                     tags: ['PYTHON']
+                },
+                {
+                    id: 42,
+                    title: 'Serverless with Node.js: efficient applications in the Cloud',
+                    description: `The Serverless with AWS course is designed for developers who want to build scalable applications without the need to manage servers. Throughout the lessons, key concepts of serverless architecture, the Serverless Framework, and integration with AWS services such as Lambda, API Gateway, DynamoDB, and IAM are covered. In addition to theory, the course focuses on hands-on learning, allowing participants to implement APIs, configure permissions, and optimize operational costs. It’s ideal for those looking to enhance their skills and develop modern, efficient, and highly available cloud solutions.`,
+                    image: 'https://i.ibb.co/PvHGjJdv/Fabio-Henrique-De-Abreu-Course-Serverless-with-Node-js-efficient-applications-in-the-Cloud-Alura-1.png',
+                    hours: 10,
+                    hoursTxt: '10 Horas',
+                    tags: ['SERVERLESS', 'NODE', 'AWS']
                 },
             ]
         }
